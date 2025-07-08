@@ -1,0 +1,1127 @@
+[
+    {
+        "thai": "ใบทุเรียนมีระยะเติบโตใดบ้าง",
+        "english": "What are the key stages of durian leaf development?",
+        "predict": " What is the stage of growth of the turtle leaves?",
+        "time_second": 0.8590750694274902,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.3,
+                "explanation": "The predicted translation is fluent in English, but it does not preserve the meaning of the original Thai sentence. The term 'ทุเรียน' was incorrectly translated as 'turtle' instead of 'durian'. The overall concept of asking about the stages of leaf development is somewhat preserved, but the specific context is lost due to the incorrect translation of 'durian'."
+            },
+            "BLEU": {
+                "score": 0.05300156689756295
+            }
+        }
+    },
+    {
+        "thai": "อธิบายการเปลี่ยนแปลงของผลทุเรียนที่อยู่ในระยะกระป๋องนม",
+        "english": "Explain the changes in durian fruit during the Medium Fruit stage",
+        "predict": "Explain the change in the yield of grains in the lactation phase.",
+        "time_second": 0.6099281311035156,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.1,
+                "explanation": "The predicted translation is significantly inaccurate. It incorrectly translates 'ผลทุเรียน' (durian fruit) as 'yield of grains' and 'ระยะกระป๋องนม' (Medium Fruit stage) as 'lactation phase'. The overall meaning of the sentence is not preserved."
+            },
+            "BLEU": {
+                "score": 0.07347053125977879
+            }
+        }
+    },
+    {
+        "thai": "ระยะเวลาปกติสำหรับการพัฒนาผลทุเรียนหลังการผสมเกสรนานเท่าไร",
+        "english": "What is the typical time frame for durian fruit development after pollination?",
+        "predict": "How long is the normal period of time for improving graduate outcomes after graduation?",
+        "time_second": 0.771364688873291,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.0,
+                "explanation": "The predicted translation is completely incorrect. The original sentence is about the development time of durian fruit after pollination, but the translation is about improving graduate outcomes after graduation. The meaning, terminology, and context are all wrong."
+            },
+            "BLEU": {
+                "score": 0.06917184228205472
+            }
+        }
+    },
+    {
+        "thai": "ใช้แพโคลบิวทราโซลกระตุ้นให้ทุเรียนออกผลนอกฤดูอย่างไร",
+        "english": "How is paclobutrazol used for off-season durian production?",
+        "predict": "How do you use pacolbytrazol to stimulate students to produce extra-season results?",
+        "time_second": 0.6352818012237549,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.3,
+                "explanation": "The predicted translation is largely incorrect. The model incorrectly translated 'ทุเรียน' as 'students' instead of 'durian' and 'ผลนอกฤดู' as 'extra-season results' instead of 'off-season production'. The only correct part is the mention of using 'paclobutrazol'. The sentence is fluent in English but does not preserve the original meaning."
+            },
+            "BLEU": {
+                "score": 0.03673526562988939
+            }
+        }
+    },
+    {
+        "thai": "อธิบายลักษณะของใบทุเรียนแก่",
+        "english": "Describe the characteristics of mature durian leaves",
+        "predict": "Describe the characteristics of the certificate as follows:",
+        "time_second": 0.3900949954986572,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.0,
+                "explanation": "The predicted translation is completely incorrect. It does not convey the original meaning of the Thai sentence, which is about describing the characteristics of mature durian leaves. The model output talks about a certificate, which is not relevant to the source text."
+            },
+            "BLEU": {
+                "score": 0.29847458960098217
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can we identify anthracnose disease on durian leaves?",
+        "predict": " How to diagnose anotrachnosis on a sheet of paper?",
+        "time_second": 0.5466299057006836,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.4,
+                "explanation": "The predicted translation is partially correct. The model correctly translates the concept of diagnosing a disease, but it incorrectly translates 'โรคแอนแทรคโนสบนใบทุเรียน' as 'anotrachnosis on a sheet of paper' instead of 'anthracnose disease on durian leaves'. The error significantly changes the meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.05522397783539471
+            }
+        }
+    },
+    {
+        "thai": "ผู้ส่งออกควรจัดการทดสอบแคดเมียมและ Basic Yellow 2 ก่อนส่งทุเรียนไปจีนอย่างไร",
+        "english": "How should exporters handle testing for cadmium and Basic Yellow 2 before exporting durian to China?",
+        "predict": "How should the exporter handle the cadmium and Basic Yellow 2 tests before sending students to China?",
+        "time_second": 0.6759872436523438,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.7,
+                "explanation": "The predicted translation is fluent and partially correct. However, it incorrectly translated 'ทุเรียน' (durian) as 'students', which significantly changes the meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.3092852090394753
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดจึงใช้แพโคลบิวทราโซลกระตุ้นทุเรียนให้ออกผลนอกฤดู",
+        "english": "Why is paclobutrazol used for off-season durian production?",
+        "predict": "Why, then, is the use of pacolbytrazole to stimulate crops to produce off-season produce?",
+        "time_second": 0.8611671924591064,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.7,
+                "explanation": "The predicted translation managed to convey the general idea of the original sentence, but it lacks specificity. The term 'ทุเรียน' was translated as 'crops' instead of 'durian', and the phrase 'ออกผลนอกฤดู' was translated as 'produce off-season produce', which is redundant and less clear than 'off-season durian production'."
+            },
+            "BLEU": {
+                "score": 0.032342452920962154
+            }
+        }
+    },
+    {
+        "thai": "ประเมินความสุกของทุเรียนด้วยการดูปากปลิงได้อย่างไร",
+        "english": "How to assess durian ripeness with the abscission zone?",
+        "predict": "How can you assess the student's enthusiasm by looking at a whale's mouth?",
+        "time_second": 0.7058811187744141,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.0,
+                "explanation": "The predicted translation is completely wrong. It does not convey the original meaning of the Thai sentence, which is about assessing the ripeness of durian, not about assessing a student's enthusiasm. The terminology used is also incorrect."
+            },
+            "BLEU": {
+                "score": 0.04016138436407654
+            }
+        }
+    },
+    {
+        "thai": "ทำไมถึงใช้อีทีฟอนกับทุเรียนที่เก็บเกี่ยวแล้ว",
+        "english": "Why use ethephon on harvested durians?",
+        "predict": "Why not use the phone with the students who have already reaped the harvest?",
+        "time_second": 0.6123561859130859,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.0,
+                "explanation": "The predicted translation is completely incorrect. It mistranslated 'ethephon' as 'the phone' and 'durians' as 'students', and the overall meaning of the sentence is not preserved."
+            },
+            "BLEU": {
+                "score": 0.034585921141027355
+            }
+        }
+    },
+    {
+        "thai": "อาการหลักของโรคแอนแทรคโนสดอกทุเรียนมีอะไรบ้าง",
+        "english": "What are the main symptoms of durian flower anthracnose disease?",
+        "predict": "What are some of the main symptoms of endocrine disorder?",
+        "time_second": 0.6838688850402832,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.2,
+                "explanation": "The predicted translation is fluent in English, but it does not preserve the meaning of the original Thai sentence. The disease mentioned in the Thai sentence is 'durian flower anthracnose disease', not 'endocrine disorder'."
+            },
+            "BLEU": {
+                "score": 0.28997844147152074
+            }
+        }
+    },
+    {
+        "thai": "ความสำคัญของน้ำหนักเนื้อแห้งในทุเรียนส่งออกคืออะไร",
+        "english": "What is the importance of dry matter content amount in durian for export?",
+        "predict": "What is the importance of dry meat weight in the export curriculum?",
+        "time_second": 0.47922396659851074,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.5,
+                "explanation": "The model's translation is fluent and understandable, but it incorrectly translated 'น้ำหนักเนื้อแห้ง' as 'dry meat weight' instead of 'dry matter content amount'. Also, 'ทุเรียนส่งออก' was translated as 'export curriculum' instead of 'durian for export'. These errors significantly affect the meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.389997525287991
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดการค้ำยันกิ่ง (การผูก) จึงจำเป็นสำหรับต้นทุเรียนที่กำลังพัฒนาผล",
+        "english": "Why is branch support (tying) necessary for durian trees during fruit development?",
+        "predict": "Why is the emphasis on jingking so important for growing seedlings?",
+        "time_second": 0.5530319213867188,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.3,
+                "explanation": "The predicted translation is not accurate. The terms 'branch support (tying)' and 'durian trees during fruit development' are incorrectly translated as 'emphasis on jingking' and 'growing seedlings' respectively. The overall meaning of the sentence is not preserved."
+            },
+            "BLEU": {
+                "score": 0.06272848091762075
+            }
+        }
+    },
+    {
+        "thai": "ใบทุเรียนแก่มีลักษณะใดที่แตกต่างจากใบอ่อน",
+        "english": "What characteristics distinguish mature durian leaves from young leaves?",
+        "predict": " What distinguishes an old turtle from a weaker leaf?",
+        "time_second": 0.5427861213684082,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การกำจัดเพลี้ยไก่แจ้ทุเรียนในสวนต้องทำอย่างไร",
+        "english": "How can durian psyllids be controlled effectively in the orchard?",
+        "predict": "What should be done to get rid of chicken pox in the garden?",
+        "time_second": 0.48996400833129883,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การวัดปริมาณน้ำหนักเนื้อแห้งมีส่วนในการควบคุมคุณภาพทุเรียนที่โรงคัดบรรจุอย่างไร",
+        "english": "How does dry matter content testing figure into durian quality control at the packing house?",
+        "predict": "Measuring the weight of dried meat plays a role in controlling the quality of pupils at the factory.",
+        "time_second": 0.9806921482086182,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "สภาพแวดล้อมใดส่งเสริมให้ต้นทุเรียนติดดอก",
+        "english": "What environmental conditions promote flower induction in durian trees?",
+        "predict": "What environment promotes the flowering of trees?",
+        "time_second": 0.46033596992492676,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดสำหรับการจดทะเบียนสวนทุเรียนเพื่อส่งออกมีอะไรบ้าง",
+        "english": "What are the requirements for registering durian farms for export?",
+        "predict": "What are the rules for registering a kindergarten for export?",
+        "time_second": 0.3998889923095703,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "หน่วยงานใดอนุมัติรายชื่อสวนทุเรียนและโรงคัดบรรจุไทยที่มีสิทธิ์ส่งออกไปจีน",
+        "english": "Which authority approves the list of Thai durian orchards and packing houses eligible for export to China?",
+        "predict": " Any authority that has approved a list of Thai nursery gardens and packing shops with the right to export to China.",
+        "time_second": 0.8565249443054199,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "น้ำหนักเนื้อแห้งขั้นต่ำที่กำหนดสำหรับทุเรียนหมอนทองส่งออกคือเท่าไร",
+        "english": "What is the minimum dry matter content amount required in Monthong durians for export?",
+        "predict": "What is the minimum dry meat weight prescribed for turkeys to be exported?",
+        "time_second": 0.6258420944213867,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกที่บ่งบอกว่าทุเรียนสุกและพร้อมเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the visible signs that indicate durians are ripe and ready to harvest?",
+        "predict": "What are some of the outward traits that indicate that the turkeys are ripe and ready to harvest?",
+        "time_second": 0.8331990242004395,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดที่ใช้ส่งเร่งให้ทุเรียนสุกสม่ำเสมอหลังเก็บเกี่ยว",
+        "english": "Which chemicals are used to promote uniform ripening of durians after harvest?",
+        "predict": " Any chemical that is used to speed up crop rotation after harvesting.",
+        "time_second": 0.6017520427703857,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ศัตรูพืชหลักที่เจาะเข้าไปในเมล็ดและทำให้เนื้อทุเรียนเสียคืออะไร",
+        "english": "What are the main pests that bore into the seed and damage the durian flesh?",
+        "predict": "What is the main enemy plant that penetrates the seeds and spoils turtle meat?",
+        "time_second": 0.688805103302002,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ต้องระบุข้อมูลใดบ้างบนบรรจุภัณฑ์ทุเรียนส่งออกเพื่อให้รองรับการตรวจสอบย้อนกลับ",
+        "english": "What information must be included on the export packaging of durians to support traceability?",
+        "predict": "What kind of information is required to be identified on a student's package to qualify for re-examination?",
+        "time_second": 0.7885549068450928,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าโคนเน่าทุเรียนที่เกิดจากเชื้อรา Phytophthora palmivora คืออะไร",
+        "english": "What are the symptoms of root rot and foot rot caused by Phytophthora palmivora in durian trees?",
+        "predict": "What are the symptoms of coronary artery disease caused by the fungus Phytophthora palmivora?",
+        "time_second": 0.710460901260376,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีระบบใบรับรองสุขอนามัยพืชอิเล็กทรอนิกส์ในการส่งออกทุเรียน",
+        "english": "What is the purpose of the e-Phytosanitary Certificate system in durian export?",
+        "predict": "Why is there a need for an electronic plant health certification system for the export of tutorials?",
+        "time_second": 0.6762807369232178,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำเท่าไรในระยะที่ทุเรียนเริ่มติดผล",
+        "english": "How much water should be given during the early fruit-setting stage in durian cultivation?",
+        "predict": "How much water should be given during the period when the seedlings are beginning to bear fruit?",
+        "time_second": 0.6284239292144775,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรตรวจหาเพลี้ยไฟพริกในสวนทุเรียนบ่อยแค่ไหน",
+        "english": "How often should durian orchards be inspected for thrips?",
+        "predict": "How often should you check for pepper spray in the nursery?",
+        "time_second": 0.49203991889953613,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ในพื้นที่ผลิตทุเรียนจำเป็นต้องมีข้อกำหนดด้านสุขาภิบาลใด",
+        "english": "What sanitation practices are required in durian production areas?",
+        "predict": "In the area of crop production, it is necessary to have health standards in place.",
+        "time_second": 0.5683882236480713,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ทุเรียนที่จะส่งออกไปจีนจะมีค่าปริมาณสารพิษตกค้างสูงสุดได้เท่าไหร่",
+        "english": "What is the maximum residue limits for durians to be exported to China?",
+        "predict": "How many students to send to China will have the maximum amount of pollutants?",
+        "time_second": 0.5522539615631104,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "เพลี้ยแป้งส่งผลต่อคุณภาพผลทุเรียนอย่างไร",
+        "english": "Explain how mealybugs affect the quality of durian fruit.",
+        "predict": "How does reading affect the quality of the student's results?",
+        "time_second": 0.40259671211242676,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ปริมาณน้ำหนักเนื้อแห้งมีความสำคัญต่อคุณภาพของทุเรียนส่งออกอย่างไร",
+        "english": "How is dry matter content amount important to the quality of durians for export?",
+        "predict": "The amount of dry meat weighs is important to the quality of the student shipments.",
+        "time_second": 0.5521349906921387,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การควบคุมการสุกด้วยอีทีฟอนมีประโยชน์อย่างไร",
+        "english": "What are the benefits of ripening control using ethephon?",
+        "predict": "How is it helpful to control interference with the ETF?",
+        "time_second": 0.8538439273834229,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดพิ้นฐานสำหรับโรงคัดบรรจุทุเรียนที่ส่งออกไปจีนมีอะไรบ้าง",
+        "english": "What are the minimum requirements for packing houses exporting durians to China?",
+        "predict": "What are the basic requirements for student packaging companies exporting to China?",
+        "time_second": 0.547360897064209,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีสติกเกอร์ติดไว้ที่ก้านทุเรียน",
+        "english": "What is the purpose of the durian stem sticker?",
+        "predict": "Why is there a sticker attached to the students?",
+        "time_second": 0.4328598976135254,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "อธิบายระบบหมุนเวียนอากาศที่ใช้ระหว่างขนส่งทุเรียนในตู้คอนเทนเนอร์",
+        "english": "Explain the airflow system used in durian containers in transit.",
+        "predict": "Describe the air circulation system used during the transport of pupils in container containers.",
+        "time_second": 0.6054787635803223,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "โรงคัดบรรจุต้องปฏิบัติตามมาตรฐานการเกษตรไทยใดบ้างเพื่อให้ส่งออกทุเรียนไปจีนได้",
+        "english": "What Thai agricultural standards must packing houses comply with to export durians to China?",
+        "predict": "Packaging factories must comply with some of Thailand's agricultural standards in order to export students to China.",
+        "time_second": 0.832409143447876,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องเก็บเกี่ยวทุเรียนที่มีน้ำหนักเนื้อแห้งในปริมาณเหมาะสมต่อการส่งออก",
+        "english": "Why must durians be harvested when they have enough dry matter content amount for export?",
+        "predict": "Why is it necessary to harvest turmeric with dry meat weight in the right quantity for export?",
+        "time_second": 0.7320601940155029,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดใช้กระตุ้นทุเรียนให้ออกดอกนอกฤดู",
+        "english": "What chemical is used to induce off-season flowering in durian trees?",
+        "predict": "What chemicals are used to stimulate seedlings to bloom out of season?",
+        "time_second": 0.5328187942504883,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ในตู้คอนเทนเนอร์บรรจุทุเรียนส่งออก ควรรักษาอุณหภูมิไว้ที่เท่าไร",
+        "english": "In durian shipping containers, what temperature should be maintained?",
+        "predict": "In a container container container, the shipping student must keep as much temperature as possible.",
+        "time_second": 0.6446578502655029,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "วิธีที่แนะนำสำหรับการคำนวณน้ำหนักเนื้อแห้งในเนื้อทุเรียนคือวิธีใด",
+        "english": "What is the recommended method for calculating the amount of dry matter content in durian pulp?",
+        "predict": "What is the recommended method for calculating the dry meat weight in turkey meat?",
+        "time_second": 0.5489969253540039,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ระบบออนไลน์ใดที่ผู้ส่งออกไทยต้องใช้เพื่อขอใบรับรองสุขอนามัยพืช",
+        "english": "What online system must Thai exporters use to apply for a phytosanitary certificate?",
+        "predict": "Any online system that a Thai exporter needs to use to apply for a plant health certificate.",
+        "time_second": 0.5591309070587158,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์ของการทดสอบสารเคมีตกค้างในทุเรียนเพื่อส่งออกคืออะไร",
+        "english": "What is the purpose of residue testing in exported durians?",
+        "predict": "What is the purpose of testing the chemicals commonly found in a classroom for export?",
+        "time_second": 0.581517219543457,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรจัดวางทุเรียนในคอนเทนเนอร์อย่างไรเพื่อให้อากาศหมุนเวียนอย่างเหมาะสม",
+        "english": "How should durians be arranged in containers to ensure proper airflow?",
+        "predict": "How should the tuition be placed in a container so that the air circulates properly?",
+        "time_second": 0.6544251441955566,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำทุเรียนที่มีดอกอยู่ในระยะกระดุมเท่าไร",
+        "english": "How much should I water durians at the Button Stage of flower development ?",
+        "predict": "How far should the flowering waterfall be in the bowl?",
+        "time_second": 0.4558877944946289,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "เครื่องมือใดใช้วัดปริมาณน้ำหนักเนื้อแห้งในทุเรียน",
+        "english": "What tool is used to measure the amount of dry matter content in durian?",
+        "predict": "What kind of device uses the weight of dried meat in turkeys to measure weight?",
+        "time_second": 0.5875372886657715,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรทำการตัดแต่งช่อดอกบนกิ่งทุเรียนอย่างไร",
+        "english": "How should durian flower clusters be pruned on branches?",
+        "predict": "How should the flower trimming be done on the pupil's stems?",
+        "time_second": 0.51944899559021,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "วิธีการใดที่สามารถป้องกันเพลี้ยแป้งในต้นทุเรียนได้ดี",
+        "english": "What is an effective method to prevent mealybugs in durian trees?",
+        "predict": "What is the best way to prevent frostbite in seedlings?",
+        "time_second": 0.455549955368042,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการบรรจุทุเรียนส่งออกมีอะไรบ้าง",
+        "english": "What are the packaging requirements in durians for export?",
+        "predict": "What are the requirements for enrolling student exporters?",
+        "time_second": 0.4683492183685303,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "อะไรกระตุ้นให้ตาดอกทุเรียนงอก",
+        "english": "What triggers flower bud formation in durian trees?",
+        "predict": "What causes the eyelids to blossom?",
+        "time_second": 0.6894400119781494,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนใดเกี่ยวข้องกับการเตรียมต้นทุเรียนหลังเก็บเกี่ยว",
+        "english": "What steps are involved in post-harvest preparation for durian trees?",
+        "predict": "What steps are involved in the preparation of seedlings after harvest?",
+        "time_second": 0.4614880084991455,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะใดบ้างที่บ่งบอกความสุกของทุเรียนได้",
+        "english": "How many characteristics indicate durian ripeness?",
+        "predict": "What are some of the characteristics that indicate the student's diligence?",
+        "time_second": 0.5017108917236328,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนหลักในการจัดการผลทุเรียนหลังเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the key steps in post-harvest handling of durians?",
+        "predict": "What are some of the main steps in managing post-harvest results?",
+        "time_second": 0.5023272037506104,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีมาตรฐานเพื่อป้องกันเชื้อราในทุเรียนหลังเก็บเกี่ยวคืออะไร",
+        "english": "What is the standard chemical dip treatment used to prevent fungal decay in post-harvest durians?",
+        "predict": "Chemical contamination What are the standards for protecting nutrients in crops after harvesting?",
+        "time_second": 0.6088898181915283,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "คอนเทนเนอร์ชนิดใดที่แนะนำสำหรับการรักษาคุณภาพทุเรียนระหว่างการส่งออก",
+        "english": "What type of container is recommended to maintain durian quality during export?",
+        "predict": " What type of container is recommended for the maintenance of quality during shipment.",
+        "time_second": 0.6093389987945557,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การฉีดพ่นปุ๋ยระหว่างที่ทุเรียนแตกใบอ่อนมีความสำคัญอย่างไร",
+        "english": "Why use foliar fertilizers during durian leaf flushing?",
+        "predict": "How important is the fertilizer spraying during the fracturing of the leaves?",
+        "time_second": 0.568429708480835,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนคืออะไร",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the requirements for a plant health certificate for the export of turnips?",
+        "time_second": 0.5393359661102295,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "สำนักงานศุลกากรแห่งสาธารณรัฐประชาชนจีนมีบทบาทอย่างไรในการส่งออกทุเรียน",
+        "english": "What role does the GACC play in durian export?",
+        "predict": "How does the Ministry of Commerce of the People's Republic of China play a role in the export of scholarships?",
+        "time_second": 0.8531670570373535,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าในต้นทุเรียนมีอะไรบ้าง",
+        "english": "What are the symptoms of root rot in durian trees?",
+        "predict": "What are some of the symptoms of radishes in seedlings?",
+        "time_second": 0.45932865142822266,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can anthracnose be identified on durian leaves?",
+        "predict": " How to diagnose anotrachnosis on a sheet of paper?",
+        "time_second": 0.5044481754302979,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ความเสียหายทั่วไปที่เกิดจากหนอนเจาะเมล็ดทุเรียนมีอะไรบ้าง",
+        "english": "What kinds of common damage to durian are caused by seed borer larvae?",
+        "predict": "What is the most common damage caused by worms piercing turmeric seeds?",
+        "time_second": 0.5882792472839355,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ควรเก็บเกี่ยวทุเรียนหมอนทองที่มีอายุผลเท่าไร",
+        "english": "At what age should Monthong durian fruits be harvested?",
+        "predict": "How old are the golden plums that should be harvested?",
+        "time_second": 0.4562199115753174,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ระบุลักษณะทางกายภาพสามข้อที่บ่งบอกถึงความสุกของทุเรียนได้",
+        "english": "List three physical traits that indicate durian ripeness.",
+        "predict": "Identify three physical characteristics that indicate a student's intensity.",
+        "time_second": 0.5304379463195801,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Explain how the use of chemical fertilizers helps to prevent spoilage after harvest.",
+        "time_second": 0.6440129280090332,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การจัดเกรดทุเรียนในโรงคัดบรรจุทำอย่างไร",
+        "english": "How is durian grading done in packing houses?",
+        "predict": "How does the graduation of students in the packing industry work?",
+        "time_second": 0.43331098556518555,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ในการลงทะเบียนเป็นผู้ส่งออกทุเรียนไปจีน สวนจะต้องผ่านการรับรอง GAP และโรงคัดบรรจุจะต้องผ่านการรับรอง GMP หรือไม่",
+        "english": "In registering to export durians to China, are passing GAP and GMP standards required for orchards and packing houses, respectively?",
+        "predict": "To register as an exporter to China, the garden must pass GAP certification and the packaging plant must pass GMP certification or not.",
+        "time_second": 0.9375107288360596,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการขอใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนมีอะไรบ้าง",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the requirements for applying for a plant health certificate for the export of vegetables?",
+        "time_second": 0.6455123424530029,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "อาการใดบ่งบอกการติดเชื้อแอนแทรคโนสบนใบทุเรียน",
+        "english": "What symptoms indicate anthracnose infection on durian leaves?",
+        "predict": "What symptoms indicate an infection with trachnosis on the leaf?",
+        "time_second": 0.5343689918518066,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การขึ้นทะเบียนเป็นผู้ส่งออกทุเรียนและโรงคัดบรรจุที่ได้รับการรับรองจะมีผลเป็นระยะเวลากี่ปี",
+        "english": "How long is the registration valid for durian exporters and packing houses?",
+        "predict": "Registration as an exporter of certified training and packaging equipment will be valid for a period of several years.",
+        "time_second": 0.7421061992645264,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีเพื่อป้องกันการเน่าเสียของผลหลังเก็บเกี่ยวมีขั้นตอนใดบ้าง",
+        "english": "What is the chemical dipping procedure to prevent post-harvest rot?",
+        "predict": "What are some of the steps involved in applying chemical fertilizers to prevent spoilage of post-harvest crops?",
+        "time_second": 0.7977321147918701,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกใดของผลทุเรียนสุกที่ใช้ในการตัดสินใจเก็บเกี่ยว",
+        "english": "What are the external characteristics of ripe durian used to determine harvest readiness?",
+        "predict": " Any external feature of the harvest used to make harvest decisions.",
+        "time_second": 0.4923970699310303,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "วิธีการตัดแต่งที่แนะนำก่อนทุเรียนออกดอกคือวิธีใด",
+        "english": "What is the recommended pruning method before durian flowering?",
+        "predict": "What is the method of cutting that was suggested before the class?",
+        "time_second": 0.5075838565826416,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์หลักในการหุ้มผลทุเรียนคืออะไร",
+        "english": "What is the main purpose of bagging durian fruit?",
+        "predict": "What is the primary purpose of student achievement?",
+        "time_second": 0.4032399654388428,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "สาเหตุทั่วไปที่ทำให้ผลทุเรียนร่วงระหว่างระยะแรกของการพัฒนาผลคืออะไรบ้าง",
+        "english": "What are the common causes of fruit drop during early fruit development in durians?",
+        "predict": "What are some of the most common causes of falling pupils during the first stage of development?",
+        "time_second": 0.6225008964538574,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Explain how the use of chemical fertilizers helps to prevent spoilage after harvest.",
+        "time_second": 0.6426470279693604,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": null,
+                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+            },
+            "BLEU": {
+                "score": null
+            }
+        }
+    }
+]

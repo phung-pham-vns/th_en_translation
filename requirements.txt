@@ -1,0 +1,8 @@
+transformers
+sentencepiece
+sacremoses
+torch
+fastapi
+uvicorn
+openai==0.28.0
+evaluate

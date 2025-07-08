@@ -1,0 +1,1134 @@
+[
+    {
+        "thai": "ใบทุเรียนมีระยะเติบโตใดบ้าง",
+        "english": "What are the key stages of durian leaf development?",
+        "predict": "What are the growth stages of durian leaves?",
+        "time_second": 1.2913999557495117,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'growth stages' instead of 'key stages of development'. However, both phrases essentially mean the same thing in this context."
+            },
+            "BLEU": {
+                "score": 0.2775806054476853
+            }
+        }
+    },
+    {
+        "thai": "อธิบายการเปลี่ยนแปลงของผลทุเรียนที่อยู่ในระยะกระป๋องนม",
+        "english": "Explain the changes in durian fruit during the Medium Fruit stage",
+        "predict": "Describe the changes observed in durian fruit that are in the “Medium Fruit Stage” (ระยะกระป๋องนม).",
+        "time_second": 0.544374942779541,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, maintaining fluency and correct terminology. The only minor difference is the use of 'describe' instead of 'explain', which are synonyms but may carry slightly different connotations. Also, the model output includes the original Thai term in parentheses, which is not necessary but does not detract from the overall quality."
+            },
+            "BLEU": {
+                "score": 0.10934883431625593
+            }
+        }
+    },
+    {
+        "thai": "ระยะเวลาปกติสำหรับการพัฒนาผลทุเรียนหลังการผสมเกสรนานเท่าไร",
+        "english": "What is the typical time frame for durian fruit development after pollination?",
+        "predict": "How long is the normal development time for durian fruit after pollination?",
+        "time_second": 0.35129308700561523,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The model's translation is very close to the reference translation. It accurately conveys the meaning of the original Thai sentence, uses correct terminology, and is fluent in English. It loses a small amount of points for slightly different phrasing ('normal development time' instead of 'typical time frame for development'), but the difference is minor."
+            },
+            "BLEU": {
+                "score": 0.23233421968350101
+            }
+        }
+    },
+    {
+        "thai": "ใช้แพโคลบิวทราโซลกระตุ้นให้ทุเรียนออกผลนอกฤดูอย่างไร",
+        "english": "How is paclobutrazol used for off-season durian production?",
+        "predict": "How can I use Clobumethrazol to induce fruit production in durians outside of the main season?",
+        "time_second": 0.4737868309020996,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation correctly conveys the main idea of the source sentence, but the name of the chemical compound is inaccurately translated as 'Clobumethrazol' instead of 'paclobutrazol'. The fluency and grammar of the translation are good."
+            },
+            "BLEU": {
+                "score": 0.030098043843528287
+            }
+        }
+    },
+    {
+        "thai": "อธิบายลักษณะของใบทุเรียนแก่",
+        "english": "Describe the characteristics of mature durian leaves",
+        "predict": "Describe the characteristics of mature durian leaves.",
+        "time_second": 0.26421189308166504,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly matches the reference translation in terms of meaning preservation, fluency, and correctness of terminology."
+            },
+            "BLEU": {
+                "score": 0.8408964152537145
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can we identify anthracnose disease on durian leaves?",
+        "predict": "How can anthracnose be diagnosed on durian leaves?",
+        "time_second": 0.2996678352355957,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very close to the reference translation. The meaning of the sentence is preserved, and the terminology is correct. The only slight difference is in the phrasing of the question, but it does not significantly impact the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.33010083098515025
+            }
+        }
+    },
+    {
+        "thai": "ผู้ส่งออกควรจัดการทดสอบแคดเมียมและ Basic Yellow 2 ก่อนส่งทุเรียนไปจีนอย่างไร",
+        "english": "How should exporters handle testing for cadmium and Basic Yellow 2 before exporting durian to China?",
+        "predict": "How should exporters handle cadmium and Basic Yellow 2 testing before shipping durian to China?",
+        "time_second": 0.42554688453674316,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly conveys the meaning of the original Thai sentence, maintaining fluency and correct terminology. The slight rephrasing does not alter the message."
+            },
+            "BLEU": {
+                "score": 0.5231163089788898
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดจึงใช้แพโคลบิวทราโซลกระตุ้นทุเรียนให้ออกผลนอกฤดู",
+        "english": "Why is paclobutrazol used for off-season durian production?",
+        "predict": "Why is Paclobutrazol used to induce durian flowering outside of the season?",
+        "time_second": 0.40732908248901367,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation is almost perfect. It correctly translates the main idea of the sentence, including the correct terminology. However, it uses 'flowering' instead of 'production', which is a slight deviation from the original meaning."
+            },
+            "BLEU": {
+                "score": 0.07768562846380175
+            }
+        }
+    },
+    {
+        "thai": "ประเมินความสุกของทุเรียนด้วยการดูปากปลิงได้อย่างไร",
+        "english": "How to assess durian ripeness with the abscission zone?",
+        "predict": "How can one assess the ripeness of durian by observing the \"ปากปลิง\" stage?",
+        "time_second": 0.4805901050567627,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.7,
+                "explanation": "The model output is mostly correct and fluent, but it failed to translate 'ปากปลิง' into 'abscission zone', which is a key term in the sentence. Thus, the meaning is not fully preserved."
+            },
+            "BLEU": {
+                "score": 0.0382756136029561
+            }
+        }
+    },
+    {
+        "thai": "ทำไมถึงใช้อีทีฟอนกับทุเรียนที่เก็บเกี่ยวแล้ว",
+        "english": "Why use ethephon on harvested durians?",
+        "predict": "Why is Ethephon used with durians that have been harvested?",
+        "time_second": 0.3795609474182129,
+        "metrics": {
+            "LLM_as_a_judge": {
+                "score": "",
+                "explain": ""
+            },
+            "BLEU": ""
+        },
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology. The slight difference in sentence structure does not affect the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.05300156689756295
+            }
+        }
+    },
+    {
+        "thai": "อาการหลักของโรคแอนแทรคโนสดอกทุเรียนมีอะไรบ้าง",
+        "english": "What are the main symptoms of durian flower anthracnose disease?",
+        "predict": "What are the main symptoms of Anthracnose in Durian flowers?",
+        "time_second": 0.3589460849761963,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, with correct terminology and fluency. However, the order of 'durian flower' and 'anthracnose disease' is reversed in comparison to the reference translation, hence the slight deduction."
+            },
+            "BLEU": {
+                "score": 0.47987820666906617
+            }
+        }
+    },
+    {
+        "thai": "ความสำคัญของน้ำหนักเนื้อแห้งในทุเรียนส่งออกคืออะไร",
+        "english": "What is the importance of dry matter content amount in durian for export?",
+        "predict": "What is the significance of dry pulp weight in exported durians?",
+        "time_second": 0.337968111038208,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.8,
+                "explanation": "The model's translation is mostly accurate and fluent. However, it incorrectly translated 'น้ำหนักเนื้อแห้ง' as 'dry pulp weight' instead of 'dry matter content amount'. This could potentially change the meaning of the sentence in a scientific or technical context."
+            },
+            "BLEU": {
+                "score": 0.1459522521830733
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดการค้ำยันกิ่ง (การผูก) จึงจำเป็นสำหรับต้นทุเรียนที่กำลังพัฒนาผล",
+        "english": "Why is branch support (tying) necessary for durian trees during fruit development?",
+        "predict": "Why is bracing branches (tying) necessary for developing durian fruit trees?",
+        "time_second": 0.4065439701080322,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation is very close to the ground truth. The meaning is preserved, and the terminology is correct. The only minor difference is the use of 'bracing branches' instead of 'branch support', and 'developing durian fruit trees' instead of 'durian trees during fruit development'. However, these differences do not significantly alter the overall meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.31874701086585167
+            }
+        }
+    },
+    {
+        "thai": "ใบทุเรียนแก่มีลักษณะใดที่แตกต่างจากใบอ่อน",
+        "english": "What characteristics distinguish mature durian leaves from young leaves?",
+        "predict": "What are the characteristics that differentiate mature durian leaves from young leaves?",
+        "time_second": 0.3753519058227539,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly conveys the meaning of the source sentence. The terminology used is correct and the sentence is fluent."
+            },
+            "BLEU": {
+                "score": 0.5008718428920986
+            }
+        }
+    },
+    {
+        "thai": "การกำจัดเพลี้ยไก่แจ้ทุเรียนในสวนต้องทำอย่างไร",
+        "english": "How can durian psyllids be controlled effectively in the orchard?",
+        "predict": "What measures should be taken to control the Durian Psyllid infestation in the orchard?",
+        "time_second": 0.4262959957122803,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses slightly different phrasing ('What measures should be taken' instead of 'How can...be controlled effectively'). The terminology used is correct."
+            },
+            "BLEU": {
+                "score": 0.1739579737564224
+            }
+        }
+    },
+    {
+        "thai": "การวัดปริมาณน้ำหนักเนื้อแห้งมีส่วนในการควบคุมคุณภาพทุเรียนที่โรงคัดบรรจุอย่างไร",
+        "english": "How does dry matter content testing figure into durian quality control at the packing house?",
+        "predict": "How does measuring the dry pulp weight contribute to quality control of durian at the grading and packing facility?",
+        "time_second": 0.4751009941101074,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The model's translation is very close to the reference translation, preserving the overall meaning and using correct terminology. However, 'dry matter content testing' is more accurate than 'measuring the dry pulp weight', as the former refers to a specific process in food science. Therefore, a small deduction is made for this slight inaccuracy."
+            },
+            "BLEU": {
+                "score": 0.07535838128770536
+            }
+        }
+    },
+    {
+        "thai": "สภาพแวดล้อมใดส่งเสริมให้ต้นทุเรียนติดดอก",
+        "english": "What environmental conditions promote flower induction in durian trees?",
+        "predict": "What environmental conditions promote flowering in durian trees?",
+        "time_second": 0.282336950302124,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect with the correct meaning and fluency. The only slight difference is the use of 'flowering' instead of 'flower induction', but it does not significantly alter the meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.5341735956899847
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดสำหรับการจดทะเบียนสวนทุเรียนเพื่อส่งออกมีอะไรบ้าง",
+        "english": "What are the requirements for registering durian farms for export?",
+        "predict": "What are the requirements for registering a durian orchard for export?",
+        "time_second": 0.33509302139282227,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original sentence, and is fluent and grammatically correct. However, 'orchard' is a slightly less common term for 'farm' in this context, hence the slight deduction."
+            },
+            "BLEU": {
+                "score": 0.5452469119630866
+            }
+        }
+    },
+    {
+        "thai": "หน่วยงานใดอนุมัติรายชื่อสวนทุเรียนและโรงคัดบรรจุไทยที่มีสิทธิ์ส่งออกไปจีน",
+        "english": "Which authority approves the list of Thai durian orchards and packing houses eligible for export to China?",
+        "predict": "Which agency approved the list of Thai durian orchards and packing houses that are eligible to export to China?",
+        "time_second": 0.4792633056640625,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, with correct terminology and fluency. The only minor difference is the use of 'approved' instead of 'approves', which slightly changes the tense but does not significantly impact the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.5468017145144114
+            }
+        }
+    },
+    {
+        "thai": "น้ำหนักเนื้อแห้งขั้นต่ำที่กำหนดสำหรับทุเรียนหมอนทองส่งออกคือเท่าไร",
+        "english": "What is the minimum dry matter content amount required in Monthong durians for export?",
+        "predict": "What is the minimum dry weight specified for Golden Durian exports?",
+        "time_second": 0.3356449604034424,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation is mostly accurate and fluent, but it slightly deviates from the original meaning by translating 'น้ำหนักเนื้อแห้ง' as 'dry weight' instead of 'dry matter content amount'. The term 'Monthong durians' is also translated as 'Golden Durian', which is acceptable but not as precise as the reference translation."
+            },
+            "BLEU": {
+                "score": 0.26856510884721396
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกที่บ่งบอกว่าทุเรียนสุกและพร้อมเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the visible signs that indicate durians are ripe and ready to harvest?",
+        "predict": "What are the external characteristics that indicate a durian is ripe and ready for harvest?",
+        "time_second": 0.405825138092041,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'a durian' instead of 'durians'. The fluency and terminology are correct."
+            },
+            "BLEU": {
+                "score": 0.1925161443439357
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดที่ใช้ส่งเร่งให้ทุเรียนสุกสม่ำเสมอหลังเก็บเกี่ยว",
+        "english": "Which chemicals are used to promote uniform ripening of durians after harvest?",
+        "predict": "Which chemical is used to promote uniform ripening of durians after harvest?",
+        "time_second": 0.35276007652282715,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The model's translation is almost perfect. The only minor error is the use of 'chemical' instead of 'chemicals'. This does not significantly alter the meaning of the sentence, but it is not a perfect match to the original."
+            },
+            "BLEU": {
+                "score": 0.7539221180326287
+            }
+        }
+    },
+    {
+        "thai": "ศัตรูพืชหลักที่เจาะเข้าไปในเมล็ดและทำให้เนื้อทุเรียนเสียคืออะไร",
+        "english": "What are the main pests that bore into the seed and damage the durian flesh?",
+        "predict": "What are the primary pests that bore into durian seeds and cause the flesh to rot?",
+        "time_second": 0.4248981475830078,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The translation is mostly accurate and fluent. However, there is a slight deviation in meaning. The original text does not specify that the durian flesh 'rots', just that it is 'damaged'."
+            },
+            "BLEU": {
+                "score": 0.23693055763743093
+            }
+        }
+    },
+    {
+        "thai": "ต้องระบุข้อมูลใดบ้างบนบรรจุภัณฑ์ทุเรียนส่งออกเพื่อให้รองรับการตรวจสอบย้อนกลับ",
+        "english": "What information must be included on the export packaging of durians to support traceability?",
+        "predict": "What information must be specified on the exported durian packaging to support traceability verification?",
+        "time_second": 0.38913893699645996,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect. It maintains the meaning of the original sentence, uses correct terminology, and is fluent. The minor difference is in the use of 'specified' instead of 'included' and 'traceability verification' instead of 'support traceability', but these do not significantly alter the meaning."
+            },
+            "BLEU": {
+                "score": 0.2788241097922203
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าโคนเน่าทุเรียนที่เกิดจากเชื้อรา Phytophthora palmivora คืออะไร",
+        "english": "What are the symptoms of root rot and foot rot caused by Phytophthora palmivora in durian trees?",
+        "predict": "What are the symptoms of root rot and foot rot in durian caused by the fungus *Phytophthora palmivora*?",
+        "time_second": 0.5825121402740479,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, and it is fluent in English. The only minor difference is the addition of the word 'fungus' before 'Phytophthora palmivora', which is not incorrect but is not present in the original sentence."
+            },
+            "BLEU": {
+                "score": 0.5310503501077986
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีระบบใบรับรองสุขอนามัยพืชอิเล็กทรอนิกส์ในการส่งออกทุเรียน",
+        "english": "What is the purpose of the e-Phytosanitary Certificate system in durian export?",
+        "predict": "Why is an electronic phytosanitary certificate system required for the export of durian?",
+        "time_second": 0.40502381324768066,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology and maintaining fluency. The slight difference in phrasing ('What is the purpose' vs 'Why is... required') does not significantly alter the meaning."
+            },
+            "BLEU": {
+                "score": 0.046192151051305474
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำเท่าไรในระยะที่ทุเรียนเริ่มติดผล",
+        "english": "How much water should be given during the early fruit-setting stage in durian cultivation?",
+        "predict": "How much water should be given during the period when the durian starts to set fruit?",
+        "time_second": 0.42229199409484863,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology and maintaining fluency. However, it uses 'the period when the durian starts to set fruit' instead of 'the early fruit-setting stage in durian cultivation', which is a more precise term. Hence, a slight deduction in the score."
+            },
+            "BLEU": {
+                "score": 0.4378826865860791
+            }
+        }
+    },
+    {
+        "thai": "ควรตรวจหาเพลี้ยไฟพริกในสวนทุเรียนบ่อยแค่ไหน",
+        "english": "How often should durian orchards be inspected for thrips?",
+        "predict": "How often should I check for chili thrips in a durian orchard?",
+        "time_second": 0.36868786811828613,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, but it incorrectly translates 'เพลี้ยไฟพริก' as 'chili thrips' instead of just 'thrips'. The addition of 'chili' is unnecessary and slightly alters the meaning."
+            },
+            "BLEU": {
+                "score": 0.14211672443220438
+            }
+        }
+    },
+    {
+        "thai": "ในพื้นที่ผลิตทุเรียนจำเป็นต้องมีข้อกำหนดด้านสุขาภิบาลใด",
+        "english": "What sanitation practices are required in durian production areas?",
+        "predict": "In durian production areas, what hygiene requirements are necessary?",
+        "time_second": 0.3182106018066406,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence. The terminology and fluency are also correctly maintained."
+            },
+            "BLEU": {
+                "score": 0.15851165692617147
+            }
+        }
+    },
+    {
+        "thai": "ทุเรียนที่จะส่งออกไปจีนจะมีค่าปริมาณสารพิษตกค้างสูงสุดได้เท่าไหร่",
+        "english": "What is the maximum residue limits for durians to be exported to China?",
+        "predict": "What is the maximum allowable residue level for toxic substances in durians intended for export to China?",
+        "time_second": 0.440371036529541,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses slightly different terminology ('toxic substances' instead of 'residue limits'). The fluency and grammar are correct."
+            },
+            "BLEU": {
+                "score": 0.21258844131063825
+            }
+        }
+    },
+    {
+        "thai": "เพลี้ยแป้งส่งผลต่อคุณภาพผลทุเรียนอย่างไร",
+        "english": "Explain how mealybugs affect the quality of durian fruit.",
+        "predict": "How do mealybugs affect the quality of durian fruit?",
+        "time_second": 0.3352670669555664,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the main idea of the original Thai sentence, using correct terminology. However, it slightly misses the explanatory tone implied in the source sentence, hence the deduction."
+            },
+            "BLEU": {
+                "score": 0.6389431042462729
+            }
+        }
+    },
+    {
+        "thai": "ปริมาณน้ำหนักเนื้อแห้งมีความสำคัญต่อคุณภาพของทุเรียนส่งออกอย่างไร",
+        "english": "How is dry matter content amount important to the quality of durians for export?",
+        "predict": "How important is dry matter content to the quality of exported durians?",
+        "time_second": 0.3523671627044678,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it slightly rephrases the sentence structure. The terminology used is correct and the sentence is fluent."
+            },
+            "BLEU": {
+                "score": 0.3669963663491157
+            }
+        }
+    },
+    {
+        "thai": "การควบคุมการสุกด้วยอีทีฟอนมีประโยชน์อย่างไร",
+        "english": "What are the benefits of ripening control using ethephon?",
+        "predict": "What are the benefits of controlling fruit ripening with Ethephon?",
+        "time_second": 0.3350560665130615,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect. It accurately conveys the meaning of the original sentence, uses correct terminology, and is fluent. The only minor difference is the addition of the word 'fruit', which is not present in the original sentence, but it doesn't change the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.3816330911371339
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดพิ้นฐานสำหรับโรงคัดบรรจุทุเรียนที่ส่งออกไปจีนมีอะไรบ้าง",
+        "english": "What are the minimum requirements for packing houses exporting durians to China?",
+        "predict": "What are the basic requirements for durian sorting and packing facilities destined for export to China?",
+        "time_second": 0.4228389263153076,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'basic requirements' instead of 'minimum requirements' and adds more detail by specifying 'sorting and packing facilities' instead of just 'packing houses'. The translation is fluent and uses correct terminology."
+            },
+            "BLEU": {
+                "score": 0.16753520397573754
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีสติกเกอร์ติดไว้ที่ก้านทุเรียน",
+        "english": "What is the purpose of the durian stem sticker?",
+        "predict": "Why is it necessary to put stickers on durian stalks?",
+        "time_second": 0.31731200218200684,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence. However, it uses a slightly different phrasing ('Why is it necessary to put stickers on durian stalks?') compared to the reference translation ('What is the purpose of the durian stem sticker?'). Both translations are fluent and use correct terminology."
+            },
+            "BLEU": {
+                "score": 0.049323515694897076
+            }
+        }
+    },
+    {
+        "thai": "อธิบายระบบหมุนเวียนอากาศที่ใช้ระหว่างขนส่งทุเรียนในตู้คอนเทนเนอร์",
+        "english": "Explain the airflow system used in durian containers in transit.",
+        "predict": "Explain the ventilation system used during the transportation of durians in shipping containers.",
+        "time_second": 0.3720688819885254,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect. The only difference is the use of 'ventilation system' instead of 'airflow system', but both terms convey the same meaning in this context. The rest of the sentence is accurately translated and maintains the original meaning."
+            },
+            "BLEU": {
+                "score": 0.09238430210261096
+            }
+        }
+    },
+    {
+        "thai": "โรงคัดบรรจุต้องปฏิบัติตามมาตรฐานการเกษตรไทยใดบ้างเพื่อให้ส่งออกทุเรียนไปจีนได้",
+        "english": "What Thai agricultural standards must packing houses comply with to export durians to China?",
+        "predict": "What agricultural standards does a sorting and packing facility need to comply with to export durian to China?",
+        "time_second": 0.45849180221557617,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'sorting and packing facility' instead of 'packing houses'. The terminology is slightly different but does not significantly impact the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.21479172459878051
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องเก็บเกี่ยวทุเรียนที่มีน้ำหนักเนื้อแห้งในปริมาณเหมาะสมต่อการส่งออก",
+        "english": "Why must durians be harvested when they have enough dry matter content amount for export?",
+        "predict": "Why is it necessary to harvest durians with a suitable dry pulp weight for export?",
+        "time_second": 0.40633392333984375,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the overall meaning of the original Thai sentence. However, 'dry matter content' is a more precise term than 'dry pulp weight' in the context of fruit export standards. The fluency and grammar of the translation are good."
+            },
+            "BLEU": {
+                "score": 0.1082597837309053
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดใช้กระตุ้นทุเรียนให้ออกดอกนอกฤดู",
+        "english": "What chemical is used to induce off-season flowering in durian trees?",
+        "predict": "Which chemical is used to induce flowering in durian trees outside of the natural season?",
+        "time_second": 0.4054851531982422,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence. It maintains fluency and uses correct terminology."
+            },
+            "BLEU": {
+                "score": 0.39375553105513406
+            }
+        }
+    },
+    {
+        "thai": "ในตู้คอนเทนเนอร์บรรจุทุเรียนส่งออก ควรรักษาอุณหภูมิไว้ที่เท่าไร",
+        "english": "In durian shipping containers, what temperature should be maintained?",
+        "predict": "In the container, where exported durians are stored, what temperature should be maintained?",
+        "time_second": 0.4062540531158447,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The model output is almost perfect. It maintains the meaning of the original sentence, uses correct terminology, and is fluent. The slight difference in structure doesn't affect the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.3850322886878711
+            }
+        }
+    },
+    {
+        "thai": "วิธีที่แนะนำสำหรับการคำนวณน้ำหนักเนื้อแห้งในเนื้อทุเรียนคือวิธีใด",
+        "english": "What is the recommended method for calculating the amount of dry matter content in durian pulp?",
+        "predict": "What is the recommended method for calculating dry pulp weight in durian?",
+        "time_second": 0.353222131729126,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.7,
+                "explanation": "The predicted translation is fluent and partially preserves the meaning of the original sentence. However, it incorrectly translates 'น้ำหนักเนื้อแห้ง' as 'dry pulp weight' instead of 'dry matter content'. The correct terminology is important in this context."
+            },
+            "BLEU": {
+                "score": 0.4112149811062412
+            }
+        }
+    },
+    {
+        "thai": "ระบบออนไลน์ใดที่ผู้ส่งออกไทยต้องใช้เพื่อขอใบรับรองสุขอนามัยพืช",
+        "english": "What online system must Thai exporters use to apply for a phytosanitary certificate?",
+        "predict": "Which online system do Thai exporters need to use to obtain phytosanitary certification?",
+        "time_second": 0.38770103454589844,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, with correct terminology and fluency. The only minor difference is the use of 'obtain' instead of 'apply for', but this does not significantly alter the meaning."
+            },
+            "BLEU": {
+                "score": 0.10571070857151542
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์ของการทดสอบสารเคมีตกค้างในทุเรียนเพื่อส่งออกคืออะไร",
+        "english": "What is the purpose of residue testing in exported durians?",
+        "predict": "The purpose of testing for chemical residues in durian for export is what?",
+        "time_second": 0.3706800937652588,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, but the sentence structure is not as fluent as the reference translation. The phrase 'is what?' at the end of the sentence is less natural in English."
+            },
+            "BLEU": {
+                "score": 0.07474875887495341
+            }
+        }
+    },
+    {
+        "thai": "ควรจัดวางทุเรียนในคอนเทนเนอร์อย่างไรเพื่อให้อากาศหมุนเวียนอย่างเหมาะสม",
+        "english": "How should durians be arranged in containers to ensure proper airflow?",
+        "predict": "How should durians be arranged in containers to ensure proper air circulation?",
+        "time_second": 0.3534660339355469,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence. The terms 'airflow' and 'air circulation' are interchangeable in this context."
+            },
+            "BLEU": {
+                "score": 0.7539221180326287
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำทุเรียนที่มีดอกอยู่ในระยะกระดุมเท่าไร",
+        "english": "How much should I water durians at the Button Stage of flower development ?",
+        "predict": "How much water should be given to durian trees that are in the Button Stage {ระยะกระดุม}?",
+        "time_second": 0.49232983589172363,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation is mostly accurate and fluent. However, it includes an untranslated Thai term '{ระยะกระดุม}', which should have been translated as 'Button Stage'."
+            },
+            "BLEU": {
+                "score": 0.10657284485555579
+            }
+        }
+    },
+    {
+        "thai": "เครื่องมือใดใช้วัดปริมาณน้ำหนักเนื้อแห้งในทุเรียน",
+        "english": "What tool is used to measure the amount of dry matter content in durian?",
+        "predict": "What tool is used to measure the dry weight of durian flesh?",
+        "time_second": 0.3524668216705322,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the overall meaning of the original Thai sentence. However, 'dry matter content' is more precise than 'dry weight of durian flesh'."
+            },
+            "BLEU": {
+                "score": 0.451543532528987
+            }
+        }
+    },
+    {
+        "thai": "ควรทำการตัดแต่งช่อดอกบนกิ่งทุเรียนอย่างไร",
+        "english": "How should durian flower clusters be pruned on branches?",
+        "predict": "How should I prune the flower clusters on durian branches?",
+        "time_second": 0.31641221046447754,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'I' instead of the more neutral 'should'. The terminology and fluency are correct."
+            },
+            "BLEU": {
+                "score": 0.1395079696792913
+            }
+        }
+    },
+    {
+        "thai": "วิธีการใดที่สามารถป้องกันเพลี้ยแป้งในต้นทุเรียนได้ดี",
+        "english": "What is an effective method to prevent mealybugs in durian trees?",
+        "predict": "What methods are effective for preventing mealybugs on durian trees?",
+        "time_second": 0.35337090492248535,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly conveys the meaning of the original Thai sentence. It is fluent and uses the correct terminology."
+            },
+            "BLEU": {
+                "score": 0.15148694266083962
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการบรรจุทุเรียนส่งออกมีอะไรบ้าง",
+        "english": "What are the packaging requirements in durians for export?",
+        "predict": "What are the requirements for exporting durians?",
+        "time_second": 0.26455092430114746,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.7,
+                "explanation": "The model's translation is fluent and understandable, but it misses the key detail about 'packaging requirements', which is present in the source text and the reference translation."
+            },
+            "BLEU": {
+                "score": 0.1978670910835195
+            }
+        }
+    },
+    {
+        "thai": "อะไรกระตุ้นให้ตาดอกทุเรียนงอก",
+        "english": "What triggers flower bud formation in durian trees?",
+        "predict": "What triggers the budding of durian flowers?",
+        "time_second": 0.2640078067779541,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation is almost perfect. The meaning of the original sentence is preserved, and the terminology is correct. However, 'flower bud formation' is translated as 'budding of durian flowers', which is slightly less precise."
+            },
+            "BLEU": {
+                "score": 0.1159119922599073
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนใดเกี่ยวข้องกับการเตรียมต้นทุเรียนหลังเก็บเกี่ยว",
+        "english": "What steps are involved in post-harvest preparation for durian trees?",
+        "predict": "Which stage is involved in preparing the durian plant after harvest?",
+        "time_second": 0.3343539237976074,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'stage' instead of 'steps' and 'durian plant' instead of 'durian trees'. The translation is fluent and understandable."
+            },
+            "BLEU": {
+                "score": 0.08054496384843703
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะใดบ้างที่บ่งบอกความสุกของทุเรียนได้",
+        "english": "How many characteristics indicate durian ripeness?",
+        "predict": "What characteristics indicate the ripeness of durian?",
+        "time_second": 0.28180980682373047,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The model's translation is very accurate and maintains the original meaning of the Thai sentence. The only minor difference is that the model doesn't translate 'how many', but this doesn't significantly impact the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.13888095170058956
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนหลักในการจัดการผลทุเรียนหลังเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the key steps in post-harvest handling of durians?",
+        "predict": "What are the key steps involved in managing durian fruit after harvest?",
+        "time_second": 0.35245513916015625,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology and fluency. The slight difference in phrasing ('post-harvest handling' vs 'managing durian fruit after harvest') does not significantly alter the meaning."
+            },
+            "BLEU": {
+                "score": 0.31455601883230705
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีมาตรฐานเพื่อป้องกันเชื้อราในทุเรียนหลังเก็บเกี่ยวคืออะไร",
+        "english": "What is the standard chemical dip treatment used to prevent fungal decay in post-harvest durians?",
+        "predict": "What is the process of applying standard chemicals to prevent fungal diseases in durian after harvest?",
+        "time_second": 0.4242818355560303,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the main idea of the original sentence, but it uses 'applying' instead of 'dip treatment' which is more specific and accurate in the context of post-harvest treatments."
+            },
+            "BLEU": {
+                "score": 0.15844501337268932
+            }
+        }
+    },
+    {
+        "thai": "คอนเทนเนอร์ชนิดใดที่แนะนำสำหรับการรักษาคุณภาพทุเรียนระหว่างการส่งออก",
+        "english": "What type of container is recommended to maintain durian quality during export?",
+        "predict": "Which type of container is recommended for maintaining the quality of durians during export?",
+        "time_second": 0.38890600204467773,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly conveys the meaning of the original Thai sentence. It is fluent and uses correct terminology."
+            },
+            "BLEU": {
+                "score": 0.33887143631861766
+            }
+        }
+    },
+    {
+        "thai": "การฉีดพ่นปุ๋ยระหว่างที่ทุเรียนแตกใบอ่อนมีความสำคัญอย่างไร",
+        "english": "Why use foliar fertilizers during durian leaf flushing?",
+        "predict": "What is the importance of spraying fertilizer during the initial semi-mature leaf stage of durian trees?",
+        "time_second": 0.4577951431274414,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses a more verbose way to describe 'leaf flushing' as 'the initial semi-mature leaf stage'. The terminology is correct, and the sentence is fluent."
+            },
+            "BLEU": {
+                "score": 0.032342452920962154
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนคืออะไร",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the phytosanitary certificate requirements for exporting durians?",
+        "time_second": 0.3354790210723877,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The predicted translation perfectly conveys the meaning of the original Thai sentence. The terminology and fluency are also correct."
+            },
+            "BLEU": {
+                "score": 0.6606328636027612
+            }
+        }
+    },
+    {
+        "thai": "สำนักงานศุลกากรแห่งสาธารณรัฐประชาชนจีนมีบทบาทอย่างไรในการส่งออกทุเรียน",
+        "english": "What role does the GACC play in durian export?",
+        "predict": "What role does the Chinese Customs Administration play in the export of durian?",
+        "time_second": 0.3721308708190918,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect. The only difference is that the model used 'Chinese Customs Administration' instead of the acronym 'GACC'. However, this does not change the meaning of the sentence and might even be clearer for those unfamiliar with the acronym."
+            },
+            "BLEU": {
+                "score": 0.23397625978961173
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าในต้นทุเรียนมีอะไรบ้าง",
+        "english": "What are the symptoms of root rot in durian trees?",
+        "predict": "What are the symptoms of root rot in durian trees?",
+        "time_second": 0.31688880920410156,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1,
+                "explanation": "The translation perfectly matches the reference translation. The meaning, fluency, and terminology are all preserved accurately."
+            },
+            "BLEU": {
+                "score": 1.0000000000000004
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can anthracnose be identified on durian leaves?",
+        "predict": "How can anthracnose be diagnosed on durian leaves?",
+        "time_second": 0.30037403106689453,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is almost perfect. The only difference is the use of the word 'diagnosed' instead of 'identified'. However, both words convey a similar meaning in this context, so the overall meaning is preserved."
+            },
+            "BLEU": {
+                "score": 0.5969491792019644
+            }
+        }
+    },
+    {
+        "thai": "ความเสียหายทั่วไปที่เกิดจากหนอนเจาะเมล็ดทุเรียนมีอะไรบ้าง",
+        "english": "What kinds of common damage to durian are caused by seed borer larvae?",
+        "predict": "What are the general damages caused by the Durian Seed Borer?",
+        "time_second": 0.35193800926208496,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.8,
+                "explanation": "The predicted translation is generally accurate and fluent, but it omits the detail about the damage being 'common' and doesn't specify that the damage is to 'seeds', which are both present in the reference translation."
+            },
+            "BLEU": {
+                "score": 0.07209140348761812
+            }
+        }
+    },
+    {
+        "thai": "ควรเก็บเกี่ยวทุเรียนหมอนทองที่มีอายุผลเท่าไร",
+        "english": "At what age should Monthong durian fruits be harvested?",
+        "predict": "How long should durian ‘Mongkhon Thong’ (king durian) be allowed to mature before harvesting?",
+        "time_second": 0.5283308029174805,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.8,
+                "explanation": "The model's translation preserves the overall meaning of the original sentence, but it incorrectly translates 'Monthong' as 'Mongkhon Thong' (king durian). Also, the phrase 'allowed to mature' is not as precise as 'should be harvested'. However, the sentence is fluent and understandable."
+            },
+            "BLEU": {
+                "score": 0.032342452920962154
+            }
+        }
+    },
+    {
+        "thai": "ระบุลักษณะทางกายภาพสามข้อที่บ่งบอกถึงความสุกของทุเรียนได้",
+        "english": "List three physical traits that indicate durian ripeness.",
+        "predict": "Specify three physical characteristics that indicate the ripeness of durian.",
+        "time_second": 0.33419227600097656,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'specify' instead of 'list'. The terminology and fluency are correct."
+            },
+            "BLEU": {
+                "score": 0.12192091596713041
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Please explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "time_second": 0.3341970443725586,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, with correct terminology and fluency. The only difference is the addition of the word 'Please', which is not present in the reference translation but is a common way to translate the Thai word 'จง' in a polite request. This minor difference does not significantly affect the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.7860753021519781
+            }
+        }
+    },
+    {
+        "thai": "การจัดเกรดทุเรียนในโรงคัดบรรจุทำอย่างไร",
+        "english": "How is durian grading done in packing houses?",
+        "predict": "How should durian grading be done at the sorting and packing plant?",
+        "time_second": 0.35010385513305664,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The model output is highly accurate and preserves the meaning of the original sentence. The terminology used is also correct. However, the model output uses 'should' which is not present in the original sentence, hence the slight deduction."
+            },
+            "BLEU": {
+                "score": 0.08130850857597444
+            }
+        }
+    },
+    {
+        "thai": "ในการลงทะเบียนเป็นผู้ส่งออกทุเรียนไปจีน สวนจะต้องผ่านการรับรอง GAP และโรงคัดบรรจุจะต้องผ่านการรับรอง GMP หรือไม่",
+        "english": "In registering to export durians to China, are passing GAP and GMP standards required for orchards and packing houses, respectively?",
+        "predict": "To register as an exporter of durian to China, the orchards must undergo GAP certification, and the packing house must also obtain GMP certification.",
+        "time_second": 0.599531888961792,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology (GAP and GMP certifications). However, it does not capture the question form of the original sentence, hence the score is not a perfect 1."
+            },
+            "BLEU": {
+                "score": 0.06798898171917449
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการขอใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนมีอะไรบ้าง",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the requirements for obtaining a phytosanitary certificate for the export of durians?",
+        "time_second": 0.42367100715637207,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, using correct terminology and maintaining fluency. The slight difference in phrasing ('obtaining a phytosanitary certificate' vs 'phytosanitary certificate requirements') does not alter the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.15310245441182435
+            }
+        }
+    },
+    {
+        "thai": "อาการใดบ่งบอกการติดเชื้อแอนแทรคโนสบนใบทุเรียน",
+        "english": "What symptoms indicate anthracnose infection on durian leaves?",
+        "predict": "What symptoms indicate an infection with Anthracnose on durian leaves?",
+        "time_second": 0.3537180423736572,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is almost perfect, preserving the meaning and using correct terminology. The only minor difference is the use of 'an infection with Anthracnose' instead of 'anthracnose infection', which is a slight variation in phrasing but does not change the meaning."
+            },
+            "BLEU": {
+                "score": 0.3508439695638686
+            }
+        }
+    },
+    {
+        "thai": "การขึ้นทะเบียนเป็นผู้ส่งออกทุเรียนและโรงคัดบรรจุที่ได้รับการรับรองจะมีผลเป็นระยะเวลากี่ปี",
+        "english": "How long is the registration valid for durian exporters and packing houses?",
+        "predict": "How long does the certification period last for being a certified exporter of durian and packing facility?",
+        "time_second": 0.442976713180542,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, however, it is slightly more verbose and less direct than the reference translation. The term 'certified exporter' is a bit redundant as the original simply states 'exporter'."
+            },
+            "BLEU": {
+                "score": 0.07223943354597204
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีเพื่อป้องกันการเน่าเสียของผลหลังเก็บเกี่ยวมีขั้นตอนใดบ้าง",
+        "english": "What is the chemical dipping procedure to prevent post-harvest rot?",
+        "predict": "What are the steps involved in applying chemicals to prevent fruit rot after harvest?",
+        "time_second": 0.36999988555908203,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses slightly different terminology ('applying chemicals' instead of 'chemical dipping'). The sentence is fluent and grammatically correct."
+            },
+            "BLEU": {
+                "score": 0.06917184228205472
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกใดของผลทุเรียนสุกที่ใช้ในการตัดสินใจเก็บเกี่ยว",
+        "english": "What are the external characteristics of ripe durian used to determine harvest readiness?",
+        "predict": "What external characteristics of ripe durian fruit are used to determine harvest time?",
+        "time_second": 0.37038278579711914,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence. The terminology used is correct. The only minor difference is the use of 'harvest time' instead of 'harvest readiness', but this doesn't significantly alter the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.47855439210937384
+            }
+        }
+    },
+    {
+        "thai": "วิธีการตัดแต่งที่แนะนำก่อนทุเรียนออกดอกคือวิธีใด",
+        "english": "What is the recommended pruning method before durian flowering?",
+        "predict": "What pruning methods are recommended before the durian flowers?",
+        "time_second": 0.3006610870361328,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, although it uses 'flowers' instead of 'flowering'. However, this does not significantly change the overall meaning."
+            },
+            "BLEU": {
+                "score": 0.06825302156772667
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์หลักในการหุ้มผลทุเรียนคืออะไร",
+        "english": "What is the main purpose of bagging durian fruit?",
+        "predict": "The primary objective of coating durian fruit is what?",
+        "time_second": 0.29893040657043457,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.8,
+                "explanation": "The predicted translation is mostly correct and preserves the meaning of the original sentence, but the phrasing is awkward and less natural than the reference translation. 'Coating' is not the best choice of word to describe the process of 'bagging' durian fruit."
+            },
+            "BLEU": {
+                "score": 0.10552670315936317
+            }
+        }
+    },
+    {
+        "thai": "สาเหตุทั่วไปที่ทำให้ผลทุเรียนร่วงระหว่างระยะแรกของการพัฒนาผลคืออะไรบ้าง",
+        "english": "What are the common causes of fruit drop during early fruit development in durians?",
+        "predict": "What are the common causes of durian fruit drop during the early stages of fruit development?",
+        "time_second": 0.42435288429260254,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the original Thai sentence, with correct terminology and fluency. However, the placement of 'durian' before 'fruit drop' is slightly less natural than in the reference translation."
+            },
+            "BLEU": {
+                "score": 0.41867037412032276
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Please explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "time_second": 0.3373129367828369,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very accurate in terms of meaning preservation, fluency, and correctness of terminology. The only minor difference is the addition of the word 'Please' in the predicted translation, which is not present in the reference translation. However, this does not significantly alter the meaning of the sentence."
+            },
+            "BLEU": {
+                "score": 0.7860753021519781
+            }
+        }
+    }
+]
