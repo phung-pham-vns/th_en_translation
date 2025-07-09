@@ -7,6 +7,8 @@ file_paths = {
     "nllb-200-distilled-600M": "dataset/nllb-200-distilled-600M.json",
     "opus_mt_th_en": "dataset/opus_mt_th_en.json",
     "gemma-3-4b-it-Q4_K_M": "dataset/gemma-3-4b-it-Q4_K_M.json",
+    "gemma-3n-e4b_Q4_K_M": "dataset/gemma-3n-e4b_Q4_K_M.json",
+    "gemma-3-4b-it-QAT-Q4_0": "dataset/gemma-3-4b-it-QAT-Q4_0.json",
     "gemini-2.5-flash-lite-preview-06-17": "dataset/gemini-2.5-flash-lite-preview-06-17.json",
     "gemini-2.5-pro": "dataset/gemini-2.5-pro.json",
 }

@@ -96,8 +96,8 @@ Instructions:
         data = json.load(f)
 
     for i, item in enumerate(data):
+        print("**" * 30)
         print(f"Evaluating sample {i + 1}/{len(data)}...")
-        print(item)
 
         user_prompt = user_prompt_template.format(
             thai=item["thai"],
@@ -128,16 +128,16 @@ Instructions:
 
             if "metric" not in item:
                 item["metric"] = dict()
-            if "LLM-as-a-judge" not in item["metric"]:
-                item["metric"]["LLM-as-a-judge"] = parsed_json
-            if "BLEU" not in item["metric"]:
-                item["metric"]["BLEU"] = {
-                    "score": metric.compute(
-                        predictions=[item["predict"]],
-                        references=[[item["english"]]],
-                    )["score"]
-                    / 100.0
-                }
+            # if "LLM-as-a-judge" not in item["metric"]:
+            item["metric"]["LLM-as-a-judge"] = parsed_json
+            # if "BLEU" not in item["metric"]:
+            item["metric"]["BLEU"] = {
+                "score": metric.compute(
+                    predictions=[item["predict"]],
+                    references=[[item["english"]]],
+                )["score"]
+                / 100.0
+            }
 
         except Exception as e:
             print(f"Error evaluating sample {i + 1}: {e}")

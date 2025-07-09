@@ -6,8 +6,8 @@
         "time_second": 0.8590750694274902,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.3,
-                "explanation": "The predicted translation is fluent in English, but it does not preserve the meaning of the original Thai sentence. The term 'ทุเรียน' was incorrectly translated as 'turtle' instead of 'durian'. The overall concept of asking about the stages of leaf development is somewhat preserved, but the specific context is lost due to the incorrect translation of 'durian'."
+                "score": 0.25,
+                "explanation": "The translation correctly identifies the general question structure ('What is the stage of growth of the X?'), but critically mistranslates 'ใบทุเรียน' (durian leaves) as 'turtle leaves'. This is a major factual error that renders the translation largely incorrect and misleading. Additionally, it uses singular 'stage' instead of plural 'stages' implied by 'ใดบ้าง', which is a minor error compared to the 'turtle' mistake."
             },
             "BLEU": {
                 "score": 0.05300156689756295
@@ -21,8 +21,8 @@
         "time_second": 0.6099281311035156,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.1,
-                "explanation": "The predicted translation is significantly inaccurate. It incorrectly translates 'ผลทุเรียน' (durian fruit) as 'yield of grains' and 'ระยะกระป๋องนม' (Medium Fruit stage) as 'lactation phase'. The overall meaning of the sentence is not preserved."
+                "score": 0.05,
+                "explanation": "The translation is almost entirely incorrect. While 'Explain the change in' is somewhat accurate, the key subject 'durian fruit' (ผลทุเรียน) is mistranslated as 'yield of grains', which is a severe error. Furthermore, the specific agricultural term 'ระยะกระป๋องนม' (Medium Fruit stage for durian) is completely misinterpreted as 'lactation phase', making the translation nonsensical and irrelevant to the original context. The meaning is completely lost."
             },
             "BLEU": {
                 "score": 0.07347053125977879
@@ -37,7 +37,7 @@
         "metric": {
             "LLM-as-a-judge": {
                 "score": 0.0,
-                "explanation": "The predicted translation is completely incorrect. The original sentence is about the development time of durian fruit after pollination, but the translation is about improving graduate outcomes after graduation. The meaning, terminology, and context are all wrong."
+                "explanation": "The translation completely misunderstands the core subject and context of the sentence. 'ผลทุเรียน' (durian fruit) is incorrectly translated as 'graduate outcomes', and 'การผสมเกสร' (pollination) is incorrectly translated as 'graduation'. While the initial phrase 'How long is the normal period of time' is partially correct, the complete misinterpretation of key nouns renders the entire translation nonsensical and irrelevant to the source."
             },
             "BLEU": {
                 "score": 0.06917184228205472
@@ -51,8 +51,8 @@
         "time_second": 0.6352818012237549,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.3,
-                "explanation": "The predicted translation is largely incorrect. The model incorrectly translated 'ทุเรียน' as 'students' instead of 'durian' and 'ผลนอกฤดู' as 'extra-season results' instead of 'off-season production'. The only correct part is the mention of using 'paclobutrazol'. The sentence is fluent in English but does not preserve the original meaning."
+                "score": 0.25,
+                "explanation": "The translation fundamentally misunderstands the core subject of the sentence. 'ทุเรียน' (durian) is incorrectly translated as 'students', which completely changes the meaning from agriculture to education. There's also a typo in the chemical name 'pacolbytrazol' instead of 'paclobutrazol'. While the overall question structure is maintained ('How do you use...'), the critical errors in terminology and subject matter make the translation largely incorrect and misleading."
             },
             "BLEU": {
                 "score": 0.03673526562988939
@@ -66,8 +66,8 @@
         "time_second": 0.3900949954986572,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.0,
-                "explanation": "The predicted translation is completely incorrect. It does not convey the original meaning of the Thai sentence, which is about describing the characteristics of mature durian leaves. The model output talks about a certificate, which is not relevant to the source text."
+                "score": 0.5,
+                "explanation": "The model correctly translates 'Describe the characteristics of' (อธิบายลักษณะของ) but completely misunderstands 'ใบทุเรียนแก่' (mature durian leaves), translating it as 'the certificate as follows'. This is a major error as 'ใบ' in this context means 'leaf', not 'certificate', and 'แก่' means 'mature/old', not 'as follows'. The core subject of the sentence is entirely mistranslated."
             },
             "BLEU": {
                 "score": 0.29847458960098217
@@ -81,8 +81,8 @@
         "time_second": 0.5466299057006836,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.4,
-                "explanation": "The predicted translation is partially correct. The model correctly translates the concept of diagnosing a disease, but it incorrectly translates 'โรคแอนแทรคโนสบนใบทุเรียน' as 'anotrachnosis on a sheet of paper' instead of 'anthracnose disease on durian leaves'. The error significantly changes the meaning of the sentence."
+                "score": 0.25,
+                "explanation": "The translation correctly identifies the interrogative structure ('How to diagnose') and the core verb 'diagnose'. However, it misspellings 'anthracnose' as 'anotrachnosis' and, critically, mistranslates 'ใบทุเรียน' (durian leaves) as 'a sheet of paper', completely altering the meaning and context of the sentence from plant pathology to something nonsensical. It also entirely misses the word 'durian'."
             },
             "BLEU": {
                 "score": 0.05522397783539471
@@ -96,8 +96,8 @@
         "time_second": 0.6759872436523438,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.7,
-                "explanation": "The predicted translation is fluent and partially correct. However, it incorrectly translated 'ทุเรียน' (durian) as 'students', which significantly changes the meaning of the sentence."
+                "score": 0.4,
+                "explanation": "The translation correctly captures the first part of the question regarding how exporters should handle tests for cadmium and Basic Yellow 2. However, it critically mistranslates 'ทุเรียน' (durian, the fruit) as 'students', which fundamentally alters the meaning and context of the entire sentence, making it nonsensical in relation to the original source."
             },
             "BLEU": {
                 "score": 0.3092852090394753
@@ -111,8 +111,8 @@
         "time_second": 0.8611671924591064,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.7,
-                "explanation": "The predicted translation managed to convey the general idea of the original sentence, but it lacks specificity. The term 'ทุเรียน' was translated as 'crops' instead of 'durian', and the phrase 'ออกผลนอกฤดู' was translated as 'produce off-season produce', which is redundant and less clear than 'off-season durian production'."
+                "score": 0.45,
+                "explanation": "The translation correctly identifies the interrogative ('Why') and the concept of stimulating off-season production. However, it contains two significant errors: the chemical 'paclobutrazol' is misspelled as 'pacolbytrazole', and the specific fruit 'ทุเรียน' (durian) is incorrectly generalized to 'crops', losing critical information. The phrasing is also slightly less concise than the reference."
             },
             "BLEU": {
                 "score": 0.032342452920962154
@@ -127,7 +127,7 @@
         "metric": {
             "LLM-as-a-judge": {
                 "score": 0.0,
-                "explanation": "The predicted translation is completely wrong. It does not convey the original meaning of the Thai sentence, which is about assessing the ripeness of durian, not about assessing a student's enthusiasm. The terminology used is also incorrect."
+                "explanation": "The translation is completely incorrect. The model mistranslated 'ทุเรียน' (durian) as 'student', 'ความสุก' (ripeness) as 'enthusiasm', and 'ปากปลิง' (a specific term for the durian abscission zone, literally 'leech mouth') as 'a whale's mouth'. The entire meaning and context of the sentence are lost, making the prediction nonsensical in relation to the source."
             },
             "BLEU": {
                 "score": 0.04016138436407654
@@ -142,7 +142,7 @@
         "metric": {
             "LLM-as-a-judge": {
                 "score": 0.0,
-                "explanation": "The predicted translation is completely incorrect. It mistranslated 'ethephon' as 'the phone' and 'durians' as 'students', and the overall meaning of the sentence is not preserved."
+                "explanation": "The predicted translation is completely wrong. It mistranslates 'อีทีฟอน' (ethephon) as 'the phone' and 'ทุเรียน' (durian) as 'the students'. It also adds a 'not' that changes the meaning, and the overall context is entirely lost. There is no semantic resemblance to the original Thai or the correct English translation."
             },
             "BLEU": {
                 "score": 0.034585921141027355
@@ -156,8 +156,8 @@
         "time_second": 0.6838688850402832,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.2,
-                "explanation": "The predicted translation is fluent in English, but it does not preserve the meaning of the original Thai sentence. The disease mentioned in the Thai sentence is 'durian flower anthracnose disease', not 'endocrine disorder'."
+                "score": 0.15,
+                "explanation": "The translation preserves the initial interrogative structure 'What are the main symptoms of', but completely mistranslates the specific disease 'โรคแอนแทรคโนสดอกทุเรียน' (durian flower anthracnose disease) as 'endocrine disorder'. This is a critical error that changes the entire meaning and context of the question, rendering the translation largely incorrect and unusable despite the fluent English structure."
             },
             "BLEU": {
                 "score": 0.28997844147152074
@@ -171,8 +171,8 @@
         "time_second": 0.47922396659851074,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.5,
-                "explanation": "The model's translation is fluent and understandable, but it incorrectly translated 'น้ำหนักเนื้อแห้ง' as 'dry meat weight' instead of 'dry matter content amount'. Also, 'ทุเรียนส่งออก' was translated as 'export curriculum' instead of 'durian for export'. These errors significantly affect the meaning of the sentence."
+                "score": 0.35,
+                "explanation": "The translation correctly captures the initial phrase \"What is the importance of\". However, it makes two significant errors:\n1.  \"น้ำหนักเนื้อแห้ง\" (dry matter content/weight) is translated as \"dry meat weight\". While \"dry\" and \"weight\" are correct, \"meat\" is an inaccurate and awkward term for durian pulp/flesh in this context. The correct technical term is \"dry matter content\".\n2.  \"ในทุเรียนส่งออก\" (in durian for export) is completely mistranslated as \"in the export curriculum\". This is a major error, changing the core subject from durian export quality to an irrelevant concept of a curriculum, making the latter part of the sentence nonsensical and incorrect."
             },
             "BLEU": {
                 "score": 0.389997525287991
@@ -186,8 +186,8 @@
         "time_second": 0.5530319213867188,
         "metric": {
             "LLM-as-a-judge": {
-                "score": 0.3,
-                "explanation": "The predicted translation is not accurate. The terms 'branch support (tying)' and 'durian trees during fruit development' are incorrectly translated as 'emphasis on jingking' and 'growing seedlings' respectively. The overall meaning of the sentence is not preserved."
+                "score": 0.1,
+                "explanation": "The translation is largely incorrect. Key terms like 'branch support (tying)' (การค้ำยันกิ่ง (การผูก)) were mistranslated as 'emphasis on jingking', 'durian trees' (ต้นทุเรียน) became 'growing seedlings', and 'fruit development' (พัฒนาผล) was entirely missed. While the interrogative structure 'Why is... so important for...' is somewhat preserved, the core meaning and specific subject matter of the original sentence are completely lost."
             },
             "BLEU": {
                 "score": 0.06272848091762075
@@ -201,11 +201,11 @@
         "time_second": 0.5427861213684082,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation fundamentally misinterprets key nouns and concepts. 'ใบทุเรียนแก่' (mature durian leaves) is mistranslated as 'an old turtle', which is a severe factual error. 'ใบอ่อน' (young leaves) is incorrectly translated as 'a weaker leaf', changing the meaning and missing the noun 'leaves' in the second instance. While the interrogative structure 'What distinguishes X from Y?' is somewhat preserved, the content of X and Y is almost entirely wrong, rendering the translation nonsensical in context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.05522397783539471
             }
         }
     },
@@ -216,11 +216,11 @@
         "time_second": 0.48996400833129883,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation fundamentally misunderstands the core terminology. 'เพลี้ยไก่แจ้ทุเรียน' (durian psyllids, a plant pest) is incorrectly translated as 'chicken pox' (a human disease). This critical error completely alters the meaning of the sentence, rendering it nonsensical in the original context. While some general structure and parts like 'get rid of' and 'in the garden' are present, the mistranslation of the key subject matter leads to a very low score."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06754312828675707
             }
         }
     },
@@ -231,11 +231,11 @@
         "time_second": 0.9806921482086182,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The translation contains critical errors that severely distort the meaning. The most significant error is the mistranslation of 'ทุเรียน' (durian) as 'pupils,' which renders the sentence nonsensical and completely changes the subject. Additionally, 'ปริมาณน้ำหนักเนื้อแห้ง' (dry matter content) is inaccurately translated as 'weight of dried meat,' missing the correct technical term. 'โรงคัดบรรจุ' (packing house) is also less precisely translated as 'factory.' While some grammatical structure is preserved, the fundamental terminology errors make this translation of very poor quality and largely incomprehensible in the original context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.04480836160121357
             }
         }
     },
@@ -246,11 +246,11 @@
         "time_second": 0.46033596992492676,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.6,
+                "explanation": "The predicted translation preserves the general meaning and fluency. However, it loses crucial specific information by translating 'ต้นทุเรียน' (durian tree) simply as 'trees,' which is a significant factual inaccuracy. The ground truth's 'flower induction' is also a more precise and technical term for 'ติดดอก' in this context than the model's 'flowering,' though the latter is not entirely incorrect."
             },
             "BLEU": {
-                "score": null
+                "score": 0.09519340818348469
             }
         }
     },
@@ -261,11 +261,11 @@
         "time_second": 0.3998889923095703,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation is largely incorrect due to a critical mistranslation of 'สวนทุเรียน' (durian farm) as 'a kindergarten'. This completely changes the meaning and subject of the sentence, rendering it nonsensical in context. While some phrases like 'What are the rules for registering' and 'for export' are grammatically correct, the core subject is fundamentally wrong, leading to a very low score."
             },
             "BLEU": {
-                "score": null
+                "score": 0.2665837681702885
             }
         }
     },
@@ -276,11 +276,11 @@
         "time_second": 0.8565249443054199,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.3,
+                "explanation": "The translation fails to preserve the interrogative nature of the source sentence, turning a question ('Which authority?') into a statement ('Any authority that has approved...'). Furthermore, 'สวนทุเรียน' (durian orchard) is incorrectly translated as 'nursery gardens', which fundamentally changes the meaning. 'Packing shops' instead of 'packing houses' is also a less accurate term. These significant errors in meaning and terminology result in a low score."
             },
             "BLEU": {
-                "score": null
+                "score": 0.1299080632357416
             }
         }
     },
@@ -291,11 +291,11 @@
         "time_second": 0.6258420944213867,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation completely mistranslates \"ทุเรียนหมอนทอง\" (Monthong durian) as \"turkeys,\" which is a critical and nonsensical error that changes the entire subject and meaning of the sentence. While some other parts are correctly translated (e.g., \"What is the minimum,\" \"prescribed,\" \"for export\"), this central error makes the translation unusable and highly misleading."
             },
             "BLEU": {
-                "score": null
+                "score": 0.26924333182417304
             }
         }
     },
@@ -306,11 +306,11 @@
         "time_second": 0.8331990242004395,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation correctly identifies the question structure, 'outward traits,' and 'ripe and ready to harvest.' However, it makes a critical error by mistranslating 'ทุเรียน' (durian) as 'turkeys.' This fundamental error changes the entire subject of the sentence and makes the translation factually incorrect and misleading."
             },
             "BLEU": {
-                "score": null
+                "score": 0.37903259135181494
             }
         }
     },
@@ -321,11 +321,11 @@
         "time_second": 0.6017520427703857,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation suffers from a critical error by mistranslating \"ทุเรียนสุกสม่ำเสมอ\" (uniform durian ripening) as \"crop rotation\". This completely alters the meaning and makes the sentence nonsensical in context. While parts like \"Any chemical that is used to speed up\" and \"after harvesting\" are somewhat correct, the fundamental misunderstanding of the main subject and action severely reduces the quality."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06837203339116284
             }
         }
     },
@@ -336,11 +336,11 @@
         "time_second": 0.688805103302002,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The translation has severe errors in key terminology. 'ศัตรูพืช' (pest) is translated as 'enemy plant', which is unnatural and less accurate. Most critically, 'ทุเรียน' (durian) is mistranslated as 'turtle meat', which completely changes the subject of the sentence and makes the translation nonsensical. While some parts like 'What is the main' and 'penetrates the seeds' are acceptable, the core meaning is lost due to these major errors."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06725321874176006
             }
         }
     },
@@ -351,11 +351,11 @@
         "time_second": 0.7885549068450928,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The predicted translation completely misunderstands the core subject and purpose of the sentence. It translates 'บรรจุภัณฑ์ทุเรียนส่งออก' (export durian packaging) as 'a student's package' and 'การตรวจสอบย้อนกลับ' (traceability) as 're-examination'. While the initial phrase 'What kind of information is required to be identified' is structurally similar to the start of the ground truth, the critical terminology and subject matter are entirely incorrect, rendering the translation meaningless in context. It's a complete hallucination of key entities."
             },
             "BLEU": {
-                "score": null
+                "score": 0.03493384182186994
             }
         }
     },
@@ -366,11 +366,11 @@
         "time_second": 0.710460901260376,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The translation correctly identifies the question type ('What are the symptoms of...') and the pathogen ('Phytophthora palmivora' and 'fungus'). However, it critically mistranslates 'โรครากเน่าโคนเน่าทุเรียน' (durian root rot and foot rot disease) as 'coronary artery disease', which is a completely different medical condition affecting humans, not plants. It also completely misses the host 'ทุเรียน' (durian). This fundamental error in terminology and context makes the translation largely incorrect and misleading."
             },
             "BLEU": {
-                "score": null
+                "score": 0.2650823155191419
             }
         }
     },
@@ -381,11 +381,11 @@
         "time_second": 0.6762807369232178,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.4,
+                "explanation": "The translation correctly captures the question structure ('Why is there a need for') and accurately translates 'electronic plant health certification system'. However, it critically mistranslates 'ทุเรียน' (durian) as 'tutorials', which completely alters the meaning of the sentence and makes it nonsensical in context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.0336131839383324
             }
         }
     },
@@ -396,11 +396,11 @@
         "time_second": 0.6284239292144775,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.65,
+                "explanation": "The translation correctly conveys the question about water and the timing of fruit production. However, it mistranslates 'ทุเรียน' (durian, referring to the tree/plant) as 'the seedlings'. This is inaccurate in context, as seedlings are typically too young to begin bearing fruit, which refers to a mature stage of the durian plant."
             },
             "BLEU": {
-                "score": null
+                "score": 0.4005274484725572
             }
         }
     },
@@ -411,11 +411,11 @@
         "time_second": 0.49203991889953613,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation correctly captures the opening question structure ('How often should'), but critically mistranslates two key terms. 'เพลี้ยไฟพริก' (chilli thrips, a type of pest) is mistranslated as 'pepper spray', and 'สวนทุเรียน' (durian orchard) is mistranslated as 'the nursery'. These errors completely alter the meaning and context of the sentence, making the translation highly inaccurate."
             },
             "BLEU": {
-                "score": null
+                "score": 0.14323145079400493
             }
         }
     },
@@ -426,11 +426,11 @@
         "time_second": 0.5683882236480713,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The prediction fails to capture the specific crop 'ทุเรียน' (durian), generalizing it to 'crop production'. Crucially, it also misses the interrogative nature of the original Thai sentence (indicated by 'ใด'), translating it as a declarative statement instead of a question. The term 'สุขาภิบาล' is rendered as 'health standards' instead of the more precise 'sanitation practices'. While some parts are grammatically correct, the significant loss of specific information and the incorrect sentence type make it a poor translation."
             },
             "BLEU": {
-                "score": null
+                "score": 0.02719665272174911
             }
         }
     },
@@ -441,11 +441,11 @@
         "time_second": 0.5522539615631104,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation is critically flawed. The most significant error is the mistranslation of 'ทุเรียน' (durian) as 'students', which completely alters the subject and meaning of the sentence. While 'to send to China' and 'maximum amount of pollutants' retain some lexical similarity to parts of the original, the core subject error makes the translation unintelligible and irrelevant to the source content."
             },
             "BLEU": {
-                "score": null
+                "score": 0.08225964699966554
             }
         }
     },
@@ -456,11 +456,11 @@
         "time_second": 0.40259671211242676,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The predicted translation completely mistranslates the subject ('เพลี้ยแป้ง' - mealybugs vs 'reading') and the object ('ผลทุเรียน' - durian fruit vs 'student's results'). While the general question structure 'How does X affect the quality of Y?' is preserved, the core meaning and all key terminology are incorrect, rendering the translation meaningless in context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.23462350320528005
             }
         }
     },
@@ -471,11 +471,11 @@
         "time_second": 0.5521349906921387,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation contains multiple critical errors. 'Durian' (ทุเรียน) is incorrectly translated as 'student', making the sentence nonsensical. The technical term 'dry matter content' (ปริมาณน้ำหนักเนื้อแห้ง) is poorly translated as 'dry meat weighs'. Crucially, the interrogative nature of the original sentence ('How is...') is entirely lost, as the predicted translation is a declarative statement."
             },
             "BLEU": {
-                "score": null
+                "score": 0.25748661016289676
             }
         }
     },
@@ -486,11 +486,11 @@
         "time_second": 0.8538439273834229,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The translation suffers from critical mistranslations of key terms. 'การสุก' (ripening) was incorrectly translated as 'interference', and 'อีทีฟอน' (Ethephon, a specific chemical) was mistranslated as 'ETF', likely referring to something completely unrelated like Exchange Traded Funds. These errors lead to a complete loss of the original meaning, making the predicted translation irrelevant to the source content. While 'control' was correctly identified and the question structure somewhat maintained, the core subject matter is entirely wrong."
             },
             "BLEU": {
-                "score": null
+                "score": 0.049323515694897076
             }
         }
     },
@@ -501,11 +501,11 @@
         "time_second": 0.547360897064209,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The translation correctly identifies the question structure and translates 'ข้อกำหนดพื้นฐาน' as 'basic requirements' (which is acceptable, though 'minimum requirements' from the reference is also good). However, it makes two critical errors: 1. It mistranslates 'โรงคัดบรรจุ' (packing house/facility) as 'student packaging companies', adding the completely incorrect and hallucinated word 'student'. 2. It entirely omits 'ทุเรียน' (durians), which is the key product being exported, fundamentally changing the subject of the sentence. These errors significantly distort the meaning, making the translation largely inaccurate."
             },
             "BLEU": {
-                "score": null
+                "score": 0.2262944003945279
             }
         }
     },
@@ -516,11 +516,11 @@
         "time_second": 0.4328598976135254,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The translation completely mistranslates 'ก้านทุเรียน' (durian stem) as 'students', which changes the entire meaning of the sentence and makes it nonsensical. While the initial phrasing 'Why is there a sticker attached to the' is somewhat accurate, the core subject of the sentence is entirely wrong."
             },
             "BLEU": {
-                "score": null
+                "score": 0.05934202609760488
             }
         }
     },
@@ -531,11 +531,11 @@
         "time_second": 0.6054787635803223,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation makes a critical error by mistranslating 'ทุเรียน' (durian) as 'pupils', which completely changes the meaning and subject of the sentence. While some parts like 'describe' for 'explain' and 'air circulation system' for 'airflow system' are acceptable, and the general structure is retained, the core factual error renders the translation largely incorrect and misleading. Additionally, 'in container containers' is redundant and awkward for 'ในตู้คอนเทนเนอร์' (in containers)."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06917184228205472
             }
         }
     },
@@ -546,11 +546,11 @@
         "time_second": 0.832409143447876,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation has multiple critical errors. It fails to convey the interrogative nature of the original sentence, replacing 'What Thai agricultural standards' with 'some of Thailand's agricultural standards'. More critically, it mistranslates 'ทุเรียน' (durian) as 'students', which completely changes the meaning and makes the sentence nonsensical. While some phrases like 'must comply with' are correct, the core meaning is lost due to these significant errors."
             },
             "BLEU": {
-                "score": null
+                "score": 0.08847487574766279
             }
         }
     },
@@ -561,11 +561,11 @@
         "time_second": 0.7320601940155029,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation commits a critical error by mistranslating 'ทุเรียน' (durian) as 'turmeric', which completely changes the subject of the sentence and makes it factually incorrect and nonsensical. Additionally, 'น้ำหนักเนื้อแห้ง' (dry matter content) is translated as 'dry meat weight', which is less idiomatic and accurate for agricultural produce quality assessment compared to 'dry matter content'. While some parts like 'Why', 'harvest', 'necessary', and 'for export' are correctly translated, the major subject error significantly detracts from the quality."
             },
             "BLEU": {
-                "score": null
+                "score": 0.09083627868206413
             }
         }
     },
@@ -576,11 +576,11 @@
         "time_second": 0.5328187942504883,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.65,
+                "explanation": "The translation correctly identifies the use of chemicals to stimulate out-of-season blooming. However, it mistranslates \"ทุเรียน\" (durian trees/fruit) as \"seedlings,\" which significantly alters the meaning of the sentence. While seedlings are young durian plants, the context of inducing flowering usually refers to mature trees for fruit production, not young seedlings. This is a factual error in the subject of the action."
             },
             "BLEU": {
-                "score": null
+                "score": 0.07347053125977879
             }
         }
     },
@@ -591,11 +591,11 @@
         "time_second": 0.6446578502655029,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation is largely incorrect and fails to preserve the original meaning. Key errors include: repeating 'container' three times ('container container container'); completely missing 'durian'; mistranslating 'ส่งออก' (export/shipping) as 'shipping student', which is a significant hallucination; and severely misinterpreting 'เท่าไร' (what/how much) as 'as much temperature as possible', changing a specific temperature query into a maximization statement. Only a few words like 'in', 'container' (singular), and 'temperature' are correctly translated, but the overall sentence is nonsensical and conveys a different meaning."
             },
             "BLEU": {
-                "score": null
+                "score": 0.032342452920962154
             }
         }
     },
@@ -606,11 +606,11 @@
         "time_second": 0.5489969253540039,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation correctly identifies the question structure ('What is the recommended method for calculating...') and partially translates 'น้ำหนักเนื้อแห้ง' (dry matter content) as 'dry meat weight', which is acceptable but less precise. However, it makes a critical error by translating 'ในเนื้อทุเรียน' (in durian pulp/flesh) as 'in turkey meat', which completely changes the subject of the sentence and renders the translation largely nonsensical in context. This severe mistranslation of a key term significantly reduces the quality."
             },
             "BLEU": {
-                "score": null
+                "score": 0.4509839548479583
             }
         }
     },
@@ -621,11 +621,11 @@
         "time_second": 0.5591309070587158,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.55,
+                "explanation": "The translation fails to convey the interrogative nature of the original Thai sentence, rendering it as a clause or fragment (\"Any online system that...\") rather than a direct question (\"What online system...?\"). This fundamentally alters the sentence type and meaning. Additionally, 'plant health certificate' is less precise than the standard technical term 'phytosanitary certificate'."
             },
             "BLEU": {
-                "score": null
+                "score": 0.24623953025272619
             }
         }
     },
@@ -636,11 +636,11 @@
         "time_second": 0.581517219543457,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The translation correctly identifies the question structure ('What is the purpose of testing...') and the 'for export' phrase. However, it completely mistranslates 'สารเคมีตกค้างในทุเรียน' (chemical residues in durian) as 'the chemicals commonly found in a classroom'. This is a severe error, introducing a hallucination ('classroom') and fundamentally changing the meaning and context of the sentence, making it largely nonsensical in relation to the original."
             },
             "BLEU": {
-                "score": null
+                "score": 0.25748661016289676
             }
         }
     },
@@ -651,11 +651,11 @@
         "time_second": 0.6544251441955566,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.3,
+                "explanation": "The model critically mistranslated 'ทุเรียน' (durian) as 'tuition', which completely changes the meaning and makes the sentence nonsensical. While other parts like 'container' and 'air circulates properly' were translated correctly, the error in the main subject is too significant."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06150343144231885
             }
         }
     },
@@ -666,11 +666,11 @@
         "time_second": 0.4558877944946289,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.0,
+                "explanation": "The translation is completely wrong and nonsensical. Key errors include: 'ให้น้ำ' (to water) is mistranslated as 'waterfall'; 'ทุเรียน' (durian) is omitted; 'ระยะกระดุม' (Button Stage of flower development) is completely misinterpreted as 'in the bowl'; and 'เท่าไร' (how much) is mistranslated as 'how far'. The predicted translation conveys no discernible meaning from the original source."
             },
             "BLEU": {
-                "score": null
+                "score": 0.04035011337465489
             }
         }
     },
@@ -681,11 +681,11 @@
         "time_second": 0.5875372886657715,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation contains critical errors that severely impact meaning preservation. 'ทุเรียน' (durian) is mistranslated as 'turkeys,' completely changing the subject and context. 'เนื้อแห้ง' (dry matter) is incorrectly rendered as 'dried meat,' and 'ปริมาณ' (amount) is omitted. The phrase 'to measure weight' at the end is also redundant and awkward. While it correctly identifies a question about a measuring device, the details are fundamentally wrong."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06690080689159478
             }
         }
     },
@@ -696,11 +696,11 @@
         "time_second": 0.51944899559021,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation fundamentally misunderstands \"ทุเรียน\" (durian), translating it as \"the pupil's,\" which completely changes the subject of the sentence and renders it nonsensical in the original context. Additionally, \"ช่อดอก\" (flower clusters) is simplified to \"flower,\" and \"กิ่ง\" (branches) is translated as \"stems,\" which is less accurate. The core meaning is lost due to the major mistranslation."
             },
             "BLEU": {
-                "score": null
+                "score": 0.0891376552139813
             }
         }
     },
@@ -711,11 +711,11 @@
         "time_second": 0.455549955368042,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "While the general question structure and the verb 'prevent' are correct, the translation completely mistranslates the specific pest ('เพลี้ยแป้ง' as 'frostbite' instead of 'mealybugs') and the specific plant ('ต้นทุเรียน' as 'seedlings' instead of 'durian trees'). These errors fundamentally change the meaning of the sentence, making the translation unhelpful and misleading."
             },
             "BLEU": {
-                "score": null
+                "score": 0.1071174444166974
             }
         }
     },
@@ -726,11 +726,11 @@
         "time_second": 0.4683492183685303,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The translation completely misunderstands the core subject of the sentence. It mistranslates 'บรรจุทุเรียน' (packaging durians) as 'enrolling student', leading to a fundamentally different and incorrect meaning. While 'requirements' and 'export' are correctly translated, their context is severely distorted due to the major errors in the key terms."
             },
             "BLEU": {
-                "score": null
+                "score": 0.1888588859215946
             }
         }
     },
@@ -741,11 +741,11 @@
         "time_second": 0.6894400119781494,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation is severely flawed. It completely misinterpreted 'ตาดอกทุเรียน' (durian flower bud) as 'the eyelids' and entirely missed the word 'ทุเรียน' (durian). While the initial 'What causes' is somewhat correct, the core meaning of the sentence is lost due to these critical mistranslations and omissions, rendering the output nonsensical in context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.05868924818816531
             }
         }
     },
@@ -756,11 +756,11 @@
         "time_second": 0.4614880084991455,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.7,
+                "explanation": "The translation accurately captures the structure and most of the meaning, including 'What steps are involved in the preparation of' and 'after harvest'. However, it mistranslates 'ต้นทุเรียน' (durian trees) as 'seedlings'. Given the context of 'after harvest', which implies mature, fruit-bearing trees, 'seedlings' is an incorrect and misleading term, significantly altering the subject of the question."
             },
             "BLEU": {
-                "score": null
+                "score": 0.3448444257953326
             }
         }
     },
@@ -771,11 +771,11 @@
         "time_second": 0.5017108917236328,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The model completely mistranslated the key terms 'ทุเรียน' (durian) as 'student' and 'ความสุก' (ripeness) as 'diligence'. While the initial phrase 'What are some of the characteristics that indicate...' has a correct structure, the fundamental errors in translating the core subject and concept lead to a sentence that is grammatically fluent but conveys an entirely different and incorrect meaning."
             },
             "BLEU": {
-                "score": null
+                "score": 0.04456882760699063
             }
         }
     },
@@ -786,11 +786,11 @@
         "time_second": 0.5023272037506104,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.4,
+                "explanation": "The translation correctly identifies the question structure, 'steps', and 'post-harvest'. However, it critically mistranslates 'ผลทุเรียน' (durian fruit) as 'post-harvest results', completely omitting 'durians' and changing the subject of the sentence. This is a major meaning error that makes the translated question about a different topic. The use of 'managing' instead of 'handling' and 'some of' are minor deviations."
             },
             "BLEU": {
-                "score": null
+                "score": 0.11390778025531022
             }
         }
     },
@@ -801,11 +801,11 @@
         "time_second": 0.6088898181915283,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation is largely incorrect, severely mistranslating key terms and losing the original meaning. 'การจุ่มสารเคมีมาตรฐาน' (standard chemical dip treatment) is mistranslated as 'Chemical contamination'. 'เชื้อรา' (fungus/fungal decay) is incorrectly translated as 'nutrients'. 'ทุเรียน' (durians) is generalized to 'crops'. While 'after harvesting' is correct and it retains a question format, the core subject and purpose of the question are completely lost due to these fundamental errors."
             },
             "BLEU": {
-                "score": null
+                "score": 0.03481501652859045
             }
         }
     },
@@ -816,11 +816,11 @@
         "time_second": 0.6093389987945557,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.7,
+                "explanation": "The translation correctly captures the general question structure and the idea of maintaining quality during transport. However, it critically omits the specific noun 'durian' (ทุเรียน), which is a key part of the original source, making the quality maintenance generic rather than specific to durian. Additionally, 'shipment' is used instead of 'export', which is a less precise but acceptable term in this context. The phrase 'for the maintenance of quality' is also slightly less concise than 'to maintain quality'."
             },
             "BLEU": {
-                "score": null
+                "score": 0.3934995962231127
             }
         }
     },
@@ -831,11 +831,11 @@
         "time_second": 0.568429708480835,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The translation misses a crucial noun, 'durian', which is central to the context. More critically, it completely misinterprets the horticultural term 'แตกใบอ่อน' (leaf flushing/new leaf growth) as 'fracturing of the leaves', which is incorrect and nonsensical in this context. While some parts like 'fertilizer spraying' and 'during' are correct, the significant errors in core terminology and omission make the translation largely unhelpful and misleading."
             },
             "BLEU": {
-                "score": null
+                "score": 0.03673526562988939
             }
         }
     },
@@ -846,11 +846,11 @@
         "time_second": 0.5393359661102295,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The translation correctly identifies the general structure and the concept of 'requirements' and 'certificate'. 'Plant health certificate' is an acceptable, albeit less formal, translation of 'สุขอนามัยพืช'. However, the critical error is the translation of 'ทุเรียน' (durian) as 'turnips', which is a completely different item. This single factual error fundamentally changes the meaning and makes the translation misleading and incorrect, despite other parts being reasonable."
             },
             "BLEU": {
-                "score": null
+                "score": 0.13834368456410945
             }
         }
     },
@@ -861,11 +861,11 @@
         "time_second": 0.8531670570373535,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation contains two critical mistranslations: 'สำนักงานศุลกากร' (Customs Office) is incorrectly translated as 'Ministry of Commerce', and 'ทุเรียน' (durian) is completely mistranslated as 'scholarships'. These errors fundamentally change the meaning of the original sentence, making the prediction almost entirely incorrect."
             },
             "BLEU": {
-                "score": null
+                "score": 0.04968018039415939
             }
         }
     },
@@ -876,11 +876,11 @@
         "time_second": 0.45932865142822266,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation completely fails to capture the core meaning of the sentence. 'รากเน่า' (root rot) is incorrectly translated as 'radishes', and 'ต้นทุเรียน' (durian trees) is incorrectly translated as 'seedlings', missing the key 'durian' term entirely. While the initial phrase 'What are the symptoms of' is correct, the critical subject matter is completely erroneous, rendering the translation nonsensical and unusable."
             },
             "BLEU": {
-                "score": null
+                "score": 0.19081654556856684
             }
         }
     },
@@ -891,11 +891,11 @@
         "time_second": 0.5044481754302979,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation retains the interrogative structure 'How to diagnose', which is correct. However, it makes significant errors in terminology and meaning: 'แอนแทรคโนส' (anthracnose) is mistranscribed as 'anotrachnosis', and 'ใบทุเรียน' (durian leaves) is incorrectly translated as 'a sheet of paper', completely distorting the context and meaning of the original sentence."
             },
             "BLEU": {
-                "score": null
+                "score": 0.05522397783539471
             }
         }
     },
@@ -906,11 +906,11 @@
         "time_second": 0.5882792472839355,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.3,
+                "explanation": "The most significant error is the mistranslation of 'ทุเรียน' (durian) as 'turmeric seeds', which is a major factual error that completely changes the subject of the sentence. Additionally, 'ทั่วไป' (common/general) was translated as 'most common', adding a superlative not present in the original. While the sentence structure and parts like 'common damage caused by worms piercing' are reasonable, the core subject's misidentification severely impacts the meaning and accuracy."
             },
             "BLEU": {
-                "score": null
+                "score": 0.08953363688807181
             }
         }
     },
@@ -921,11 +921,11 @@
         "time_second": 0.4562199115753174,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The model correctly translates the 'how old' and 'should be harvested' parts, indicating it understands the question's structure. However, it completely mistranslates 'ทุเรียนหมอนทอง' (Monthong durian) as 'golden plums'. This is a critical error, as it identifies the wrong fruit entirely, rendering the translation factually incorrect and misleading. The specific variety 'หมอนทอง' (Monthong) is also completely lost. The major terminology error significantly reduces the score."
             },
             "BLEU": {
-                "score": null
+                "score": 0.14991106946711685
             }
         }
     },
@@ -936,11 +936,11 @@
         "time_second": 0.5304379463195801,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation correctly identifies the initial structure: 'Identify three physical characteristics that indicate'. However, it severely misinterprets the latter part of the sentence, translating 'durian ripeness' (ความสุกของทุเรียน) as 'a student's intensity'. This is a complete hallucination and a critical semantic error, changing the subject and core meaning of the sentence entirely."
             },
             "BLEU": {
-                "score": null
+                "score": 0.12549310621989482
             }
         }
     },
@@ -951,11 +951,11 @@
         "time_second": 0.6440129280090332,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.5,
+                "explanation": "The most significant error is the mistranslation of `การจุ่มสารเคมี` (chemical dipping) as 'the use of chemical fertilizers'. This fundamentally changes the meaning of the preventative method being discussed, as fertilizers are applied to aid growth, not typically for post-harvest dipping to prevent spoilage. While other parts of the translation ('Explain how', 'helps to prevent', 'after harvest') are accurate, the core action described is incorrect."
             },
             "BLEU": {
-                "score": null
+                "score": 0.07474875887495341
             }
         }
     },
@@ -966,11 +966,11 @@
         "time_second": 0.43331098556518555,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.05,
+                "explanation": "The translation fundamentally misunderstands the core concepts. 'การจัดเกรดทุเรียน' (durian grading) is completely mistranslated as 'graduation of students,' missing both the subject (durian) and the intended meaning of 'grading' in an agricultural context. The location 'โรงคัดบรรจุ' (packing houses) is vaguely rendered as 'packing industry,' but this minor inaccuracy is negligible compared to the major semantic errors. The output is largely irrelevant to the source."
             },
             "BLEU": {
-                "score": null
+                "score": 0.04789232204309912
             }
         }
     },
@@ -981,11 +981,11 @@
         "time_second": 0.9375107288360596,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.5,
+                "explanation": "The translation preserves most of the meaning and core information, but it struggles significantly with the interrogative nature of the original Thai sentence (หรือไม่). The direct translation 'or not' appended to a declarative statement ('must pass') makes the English sound unidiomatic and awkward. The reference translation correctly transforms it into a natural question ('are... required...?'). Additionally, terms like 'garden' instead of 'orchards' and 'packaging plant' instead of 'packing houses' are acceptable but less precise, and 'durians' is omitted in the initial phrase, though implied by context."
             },
             "BLEU": {
-                "score": null
+                "score": 0.06667489966054597
             }
         }
     },
@@ -996,11 +996,11 @@
         "time_second": 0.6455123424530029,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.4,
+                "explanation": "The translation correctly identifies the general structure of the question ('What are the requirements for applying for a certificate for export'). It translates 'ใบรับรองสุขอนามัยพืช' as 'plant health certificate', which is acceptable but less precise than 'phytosanitary certificate'. However, the major flaw is translating 'ทุเรียน' (durian) as 'vegetables', which is a significant factual error and fundamentally changes the subject of the inquiry, making the translation misleading and largely unhelpful for its intended purpose."
             },
             "BLEU": {
-                "score": null
+                "score": 0.1203921753741131
             }
         }
     },
@@ -1011,11 +1011,11 @@
         "time_second": 0.5343689918518066,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The translation correctly captures the initial query structure ('What symptoms indicate an infection?'). However, it critically misidentifies the specific disease, translating 'แอนแทรคโนส' (anthracnose) as 'trachnosis,' which is incorrect and misleading. Additionally, it omits the specific plant 'ทุเรียน' (durian) and loses the plurality/specificity of 'leaves' by translating 'ใบทุเรียน' as 'on the leaf.' These errors significantly impact the meaning and utility of the translation."
             },
             "BLEU": {
-                "score": null
+                "score": 0.16590387014219712
             }
         }
     },
@@ -1026,11 +1026,11 @@
         "time_second": 0.7421061992645264,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.25,
+                "explanation": "The translation fundamentally misinterprets key entities and the sentence's intent. It incorrectly translates 'ทุเรียน' (durian) as 'certified training' and 'โรงคัดบรรจุ' (packing houses) as 'packaging equipment'. Most critically, it changes the interrogative 'กี่ปี' (how many years/how long) into a declarative statement 'several years', completely altering the meaning from a question to an assertion. While 'Registration' and the concept of 'validity period' are present, the major factual and grammatical errors lead to a very poor translation quality."
             },
             "BLEU": {
-                "score": null
+                "score": 0.042377131997527843
             }
         }
     },
@@ -1041,11 +1041,11 @@
         "time_second": 0.7977321147918701,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The translation correctly identifies that the question is about 'steps involved' and 'to prevent spoilage of post-harvest crops'. However, it critically misinterprets 'การจุ่มสารเคมี' (chemical dipping). The model translates this as 'applying chemical fertilizers', which is a significant semantic error. 'จุ่ม' specifically means 'dipping' or 'immersion', not a general 'applying'. Furthermore, 'สารเคมี' means 'chemical substance', not specifically 'chemical fertilizers' (which would be 'ปุ๋ยเคมี'). This misunderstanding of the core action and the type of chemical fundamentally alters the meaning of the original sentence, describing a different and contextually illogical process."
             },
             "BLEU": {
-                "score": null
+                "score": 0.05875148471810145
             }
         }
     },
@@ -1056,11 +1056,11 @@
         "time_second": 0.4923970699310303,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.35,
+                "explanation": "The model fails to accurately translate \"ผลทุเรียนสุก\" (ripe durian fruit), instead incorrectly stating \"of the harvest\" as the source of the external features. This significantly alters the core meaning. While it correctly identifies \"external feature\" and \"harvest decisions,\" the crucial subject (ripe durian) is lost. The translation of \"ใด\" (what) to \"Any\" is also less natural for a question."
             },
             "BLEU": {
-                "score": null
+                "score": 0.07545339613823572
             }
         }
     },
@@ -1071,11 +1071,11 @@
         "time_second": 0.5075838565826416,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.2,
+                "explanation": "The translation suffers from a critical error by misinterpreting 'ทุเรียนออกดอก' (durian flowering) as 'the class'. This completely changes the meaning and context of the sentence, making it nonsensical in relation to the original. While some general words like 'method' and 'before' are correctly translated, the core subject and action are lost."
             },
             "BLEU": {
-                "score": null
+                "score": 0.13674406678232565
             }
         }
     },
@@ -1086,11 +1086,11 @@
         "time_second": 0.4032399654388428,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.1,
+                "explanation": "The translation correctly identifies the question structure ('What is the primary purpose of...') and a synonym for 'main purpose'. However, the core subject 'ในการหุ้มผลทุเรียน' (of bagging durian fruit) is completely mistranslated as 'of student achievement'. This is a severe and fundamental error that changes the entire meaning of the sentence, making it nonsensical and irrelevant to the original."
             },
             "BLEU": {
-                "score": null
+                "score": 0.2090067144241745
             }
         }
     },
@@ -1101,11 +1101,11 @@
         "time_second": 0.6225008964538574,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.15,
+                "explanation": "The translation completely misunderstands the core subject, translating 'ผลทุเรียนร่วง' (durian fruit drop) as 'falling pupils,' which is a severe and nonsensical error. While it retains the question structure and correctly translates 'common causes,' the fundamental meaning about durian agriculture is lost, rendering the translation largely incorrect."
             },
             "BLEU": {
-                "score": null
+                "score": 0.1164394847706997
             }
         }
     },
@@ -1116,11 +1116,11 @@
         "time_second": 0.6426470279693604,
         "metric": {
             "LLM-as-a-judge": {
-                "score": null,
-                "explanation": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+                "score": 0.6,
+                "explanation": "The translation correctly captures the overall structure ('Explain how X helps prevent Y after Z'). However, it makes a significant error in translating 'การจุ่มสารเคมี' (chemical dipping) as 'the use of chemical fertilizers'. This fundamentally changes the method of prevention. Additionally, 'ผลเน่าเสีย' (fruit rot) is simplified to 'spoilage', losing the specific mention of 'fruit', and 'post-harvest' is less idiomatically translated as 'after harvest', though not incorrect."
             },
             "BLEU": {
-                "score": null
+                "score": 0.07474875887495341
             }
         }
     }

@@ -1,5 +1,5 @@
 import time
-from run_llama_cpp import th_to_en_translator
+from run_serving_llm import th_to_en_translator
 
 
 if __name__ == "__main__":

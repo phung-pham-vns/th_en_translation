@@ -1,10 +1,16 @@
+import json
+import time
 import requests
 from pydantic import BaseModel
+from typing import Literal, Optional
+import argparse
+
+# ========== Configuration ==========
+LLAMA_API_URL = "http://localhost:1234/v1/chat/completions"
 
 
-LLAMA_API_URL = "http://localhost:9422/v1/chat/completions"
-
-system_prompt = (
+# ========== Prompt Templates ==========
+SYSTEM_PROMPT = (
     "You are a professional translation expert specializing in Thai-to-English translation.\n\n"
     "Your task is to translate Thai queries into clear, natural, and grammatically correct English, while fully preserving the original meaning, tone, and intent.\n"
     "Maintain the original format — especially if the input is a question — and ensure contextual accuracy.\n\n"
@@ -49,13 +55,28 @@ system_prompt = (
 )
 
 # Instruction template for the user query
-default_instruction = """Translate the following Thai query to English:
+USER_PROMPT_TEMPLATE = """Translate the following Thai query to English:
 {thai_query}
 Provide an accurate English translation that preserves the original meaning and intent.  
 Return the translation in text.
 ```"""
 
 
+# ========== Response Model ==========
+class ChoiceMessage(BaseModel):
+    role: Literal["assistant"]
+    content: str
+
+
+class Choice(BaseModel):
+    message: ChoiceMessage
+
+
+class CompletionResponse(BaseModel):
+    choices: list[Choice]
+
+
+# ========== Translator Function ==========
 def th_to_en_translator(
     text: str,
     temperature: float = 0.0,
@@ -63,18 +84,12 @@ def th_to_en_translator(
     model_name: str = "gemma-3-4b-it",
 ) -> str:
     messages = [
-        {
-            "role": "system",
-            "content": system_prompt,
-        },
-        {
-            "role": "user",
-            "content": default_instruction.format(thai_query=text),
-        },
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": USER_PROMPT_TEMPLATE.format(thai_query=text)},
     ]
 
     payload = {
-        "model": model_name,  # llama.cpp ignores this but it's required for OpenAI format
+        "model": model_name,
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
@@ -84,33 +99,60 @@ def th_to_en_translator(
     try:
         response = requests.post(LLAMA_API_URL, json=payload)
         response.raise_for_status()
-        result = response.json()
-        translated = result["choices"][0]["message"]["content"]
-        return translated.strip()
+        parsed = CompletionResponse.parse_obj(response.json())
+        return parsed.choices[0].message.content.strip()
     except Exception as e:
-        return {"error": str(e)}
+        return f"[ERROR] {str(e)}"
+
+
+# ========== Main Execution ==========
+def main():
+    parser = argparse.ArgumentParser(
+        description="Thai-to-English translation via llama.cpp"
+    )
+    parser.add_argument(
+        "--input",
+        type=str,
+        default="dataset/evaluation.json",
+        help="Path to input JSON file",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        required=False,
+        help="Output file path",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gemma-3-4b-it",
+        help="Model name",
+    )
+    args = parser.parse_args()
+
+    output_path = args.output or f"dataset/{args.model}.json"
+
+    with open(args.input, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    for i, sample in enumerate(data):
+        print(f"\n🔄 Translating {i + 1}/{len(data)}")
+        t1 = time.time()
+        translation = th_to_en_translator(sample["thai"], model_name=args.model)
+        t2 = time.time()
+
+        sample["predict"] = translation
+        sample["time_second"] = round(t2 - t1, 3)
+
+        print(f"🇹🇭 Thai: {sample['thai']}")
+        print(f"🇬🇧 Translated: {translation}")
+        print(f"⏱ Time: {sample['time_second']}s")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"\n✅ Translations saved to: {output_path}")
 
 
 if __name__ == "__main__":
-    import json
-    import time
-
-    model_name = "gemma-3-4b-it-new-prompt"
-
-    with open(file="dataset/translation_testset.json", mode="r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    for sample in data:
-        t1 = time.time()
-        predict = th_to_en_translator(sample["thai"], model_name=model_name)
-        t2 = time.time()
-        sample["predict"] = predict
-        sample["time_second"] = t2 - t1
-
-        print("*" * 30)
-        print(f"Thailand: {sample['thai']}")
-        print(f"Translated: {predict}")
-        print(f"Time: {t2 - t1}s")
-
-    with open(file=f"dataset/{model_name}.json", mode="w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    main()
