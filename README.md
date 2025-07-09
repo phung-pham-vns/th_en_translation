@@ -1,2 +1,14 @@
 # th_en_translation
 Thai to English Translation
+
+## 📊 Translation Model Performance Comparison
+
+| Model                               |   Samples |   Avg Time (s) |   Avg LLM Score |   Avg BLEU Score |
+|:------------------------------------|----------:|---------------:|----------------:|-----------------:|
+| nllb-200-distilled-600M             |        75 |         0.607  |          0.248  |           0.1317 |
+| opus_mt_th_en                       |        75 |         0.273  |          0.3893 |           0.1213 |
+| gemma-3-4b-it-Q4_K_M                |        75 |         0.3939 |          0.9167 |           0.2883 |
+| gemma-3n-e4b_Q4_K_M                 |        75 |         0.597  |          0.9113 |           0.3325 |
+| gemma-3-4b-it-QAT-Q4_0              |        75 |         0.3574 |          0.8772 |           0.2551 |
+| gemini-2.5-flash-lite-preview-06-17 |        75 |         2.2394 |          0.9655 |           0.3305 |
+| gemini-2.5-pro                      |        75 |        12.1178 |          0.9659 |           0.3656 |
