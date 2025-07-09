@@ -1,0 +1,1127 @@
+[
+    {
+        "thai": "ใบทุเรียนมีระยะเติบโตใดบ้าง",
+        "english": "What are the key stages of durian leaf development?",
+        "predict": "What are the growth stages of durian leaves?",
+        "time_second": 10.756750106811523,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is highly accurate and natural. 'Growth stages' is a direct and appropriate translation for 'ระยะเติบโต'. The meaning is perfectly preserved, and the sentence is fluent and grammatically correct. The difference from the reference ('key stages of ... development' vs 'growth stages') is very minor and more a stylistic choice than a factual error or omission."
+            },
+            "BLEU": {
+                "score": 0.2775806054476853
+            }
+        }
+    },
+    {
+        "thai": "อธิบายการเปลี่ยนแปลงของผลทุเรียนที่อยู่ในระยะกระป๋องนม",
+        "english": "Explain the changes in durian fruit during the Medium Fruit stage",
+        "predict": "Explain the changes of the durian fruit in the Medium Fruit Stage.",
+        "time_second": 8.23726224899292,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost identical to the ground truth, correctly translating the specialized term 'ระยะกระป๋องนม' as 'Medium Fruit Stage'. The only minor differences are the use of 'in' instead of 'during' and the capitalization of 'Stage', which do not significantly impact meaning or fluency."
+            },
+            "BLEU": {
+                "score": 0.2262944003945279
+            }
+        }
+    },
+    {
+        "thai": "ระยะเวลาปกติสำหรับการพัฒนาผลทุเรียนหลังการผสมเกสรนานเท่าไร",
+        "english": "What is the typical time frame for durian fruit development after pollination?",
+        "predict": "What is the normal duration for durian fruit development after pollination?",
+        "time_second": 14.743662118911743,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is nearly identical to the ground truth. 'Normal duration' is an excellent synonym for 'typical time frame' and equally accurately translates 'ระยะเวลาปกติ'. There is no loss of meaning or fluency. A very minor stylistic difference."
+            },
+            "BLEU": {
+                "score": 0.5833510584342546
+            }
+        }
+    },
+    {
+        "thai": "ใช้แพโคลบิวทราโซลกระตุ้นให้ทุเรียนออกผลนอกฤดูอย่างไร",
+        "english": "How is paclobutrazol used for off-season durian production?",
+        "predict": "How to use Paclobutrazol to induce off-season fruiting in durian?",
+        "time_second": 15.768113851547241,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very good and accurately conveys the meaning of the Thai source. The terminology ('Paclobutrazol', 'off-season', 'durian', 'fruiting') is correct. The only minor difference from the ground truth is the phrasing 'How to use...' instead of 'How is... used...'. While 'How to use...' is understandable, the passive 'How is... used...' is slightly more natural and common for this type of question in English when inquiring about the method of application without a specified agent. However, the difference is negligible and does not impact comprehension."
+            },
+            "BLEU": {
+                "score": 0.05300156689756295
+            }
+        }
+    },
+    {
+        "thai": "อธิบายลักษณะของใบทุเรียนแก่",
+        "english": "Describe the characteristics of mature durian leaves",
+        "predict": "Describe the characteristics of mature durian leaves.",
+        "time_second": 5.019273042678833,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is identical to the human reference translation, conveying the exact same meaning with perfect fluency and correct terminology. The presence of a period at the end of the predicted translation is a standard grammatical practice and does not detract from its quality."
+            },
+            "BLEU": {
+                "score": 0.8408964152537145
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can we identify anthracnose disease on durian leaves?",
+        "predict": "How to diagnose Anthracnose on durian leaves?",
+        "time_second": 8.39545226097107,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is highly accurate and fluent, preserving the full meaning of the original Thai sentence. The choice of 'diagnose' for 'วินิจฉัย' is very appropriate. The only minor difference from the reference is the omission of the explicit word 'disease' after 'Anthracnose', though 'Anthracnose' inherently refers to a disease, making the prediction perfectly clear and natural."
+            },
+            "BLEU": {
+                "score": 0.2846946938149361
+            }
+        }
+    },
+    {
+        "thai": "ผู้ส่งออกควรจัดการทดสอบแคดเมียมและ Basic Yellow 2 ก่อนส่งทุเรียนไปจีนอย่างไร",
+        "english": "How should exporters handle testing for cadmium and Basic Yellow 2 before exporting durian to China?",
+        "predict": "How should exporters handle testing for cadmium and Basic Yellow 2 before shipping durian to China?",
+        "time_second": 11.607465028762817,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.99,
+                "explanation": "The predicted translation is almost identical to the ground truth. The only difference is the use of 'shipping' instead of 'exporting'. Both words are highly suitable and convey the same meaning in this context. 'Exporting' might be slightly more common for international trade regulations, but 'shipping' is perfectly understandable and correct."
+            },
+            "BLEU": {
+                "score": 0.8282477531331043
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดจึงใช้แพโคลบิวทราโซลกระตุ้นทุเรียนให้ออกผลนอกฤดู",
+        "english": "Why is paclobutrazol used for off-season durian production?",
+        "predict": "Why is Paclobutrazol used to stimulate durian to bear fruit off-season?",
+        "time_second": 15.017947912216187,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is highly accurate and fluent. It correctly translates all key components, including 'Why is Paclobutrazol used,' 'stimulate durian to bear fruit,' and 'off-season.' While the reference translation uses a slightly more concise and idiomatic phrase ('off-season durian production'), the predicted translation's 'to stimulate durian to bear fruit off-season' is also perfectly natural, grammatically correct, and a direct, accurate translation of the Thai source."
+            },
+            "BLEU": {
+                "score": 0.0891376552139813
+            }
+        }
+    },
+    {
+        "thai": "ประเมินความสุกของทุเรียนด้วยการดูปากปลิงได้อย่างไร",
+        "english": "How to assess durian ripeness with the abscission zone?",
+        "predict": "How to assess the ripeness of a durian by examining the peduncle joint?",
+        "time_second": 20.99186396598816,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The translation is highly fluent and accurately conveys the overall meaning. The phrase 'peduncle joint' for 'ปากปลิง' is understandable and describes the location correctly. However, 'abscission zone' (as used in the reference) is a more precise and specific botanical/horticultural term for the part of the durian that indicates ripeness by detachment."
+            },
+            "BLEU": {
+                "score": 0.13065113298388562
+            }
+        }
+    },
+    {
+        "thai": "ทำไมถึงใช้อีทีฟอนกับทุเรียนที่เก็บเกี่ยวแล้ว",
+        "english": "Why use ethephon on harvested durians?",
+        "predict": "Why is ethephon used on harvested durian?",
+        "time_second": 7.373605012893677,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost identical to the ground truth. The only differences are the use of passive voice ('is used' vs. 'use') and singular 'durian' vs. plural 'durians'. Both versions are grammatically correct, convey the exact same meaning, and are natural-sounding. The minor stylistic difference does not detract from the quality of the translation."
+            },
+            "BLEU": {
+                "score": 0.13888095170058956
+            }
+        }
+    },
+    {
+        "thai": "อาการหลักของโรคแอนแทรคโนสดอกทุเรียนมีอะไรบ้าง",
+        "english": "What are the main symptoms of durian flower anthracnose disease?",
+        "predict": "What are the main symptoms of Anthracnose on durian flowers?",
+        "time_second": 12.791462898254395,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very accurate and preserves the full meaning of the source sentence. It is also fluent and grammatically correct. The only minor difference is the phrasing for 'durian flower anthracnose disease'. The reference uses a compound noun 'durian flower anthracnose disease', which is a common way to name specific plant diseases in English. The predicted translation uses 'Anthracnose on durian flowers', which is also correct and understandable, but slightly less compact and specific in its phrasing of the disease name compared to the reference. Additionally, the source `โรคแอนแทรคโนส` includes `โรค` (disease), which the reference translates as 'anthracnose disease', while the prediction uses just 'Anthracnose' (though Anthracnose inherently refers to a disease)."
+            },
+            "BLEU": {
+                "score": 0.4961683000340361
+            }
+        }
+    },
+    {
+        "thai": "ความสำคัญของน้ำหนักเนื้อแห้งในทุเรียนส่งออกคืออะไร",
+        "english": "What is the importance of dry matter content amount in durian for export?",
+        "predict": "What is the importance of dry matter content in export durian?",
+        "time_second": 11.068632125854492,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It accurately conveys the meaning of the source sentence. The phrasing 'dry matter content' is standard terminology, and 'in export durian' is a natural and concise way to express 'in durian for export'. The predicted translation is arguably slightly more natural and concise than the provided ground truth without losing any meaning."
+            },
+            "BLEU": {
+                "score": 0.574465049588431
+            }
+        }
+    },
+    {
+        "thai": "เหตุใดการค้ำยันกิ่ง (การผูก) จึงจำเป็นสำหรับต้นทุเรียนที่กำลังพัฒนาผล",
+        "english": "Why is branch support (tying) necessary for durian trees during fruit development?",
+        "predict": "Why is branch propping (tying) necessary for durian trees that are developing fruit?",
+        "time_second": 9.01002287864685,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very accurate and fluent. 'Branch propping' is an excellent translation for 'การค้ำยันกิ่ง', possibly even more precise than 'branch support' in this horticultural context. The phrase 'that are developing fruit' is a direct and correct translation of 'ที่กำลังพัฒนาผล', although the reference's 'during fruit development' is a slightly more concise and idiomatic phrasing. The differences are minor stylistic choices, and the meaning is fully preserved."
+            },
+            "BLEU": {
+                "score": 0.47923658114263973
+            }
+        }
+    },
+    {
+        "thai": "ใบทุเรียนแก่มีลักษณะใดที่แตกต่างจากใบอ่อน",
+        "english": "What characteristics distinguish mature durian leaves from young leaves?",
+        "predict": "What are the characteristics of mature durian leaves that are different from young leaves?",
+        "time_second": 12.28806185722351,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is accurate and fluent, perfectly conveying the meaning of the original Thai. It is grammatically correct and uses appropriate terminology. The only minor difference from the human reference is the phrasing 'that are different from' instead of the more concise and idiomatic 'distinguish'. This does not hinder understanding but makes it slightly less natural than the reference."
+            },
+            "BLEU": {
+                "score": 0.2533654946448646
+            }
+        }
+    },
+    {
+        "thai": "การกำจัดเพลี้ยไก่แจ้ทุเรียนในสวนต้องทำอย่างไร",
+        "english": "How can durian psyllids be controlled effectively in the orchard?",
+        "predict": "How to control Durian Psyllid in the orchard?",
+        "time_second": 7.988126039505005,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The predicted translation accurately conveys the core meaning of the original Thai sentence. The terminology 'Durian Psyllid' and 'in the orchard' are correct. However, the grammatical structure 'How to control...' is less formal and fluent than a full interrogative sentence like 'How can... be controlled?' as seen in the reference. Additionally, the singular 'Psyllid' is less natural than the plural 'psyllids' in the context of pest control, and the capitalization of 'Durian Psyllid' is unnecessary for a common noun. Despite these minor issues, the translation is perfectly understandable."
+            },
+            "BLEU": {
+                "score": 0.25271148634949
+            }
+        }
+    },
+    {
+        "thai": "การวัดปริมาณน้ำหนักเนื้อแห้งมีส่วนในการควบคุมคุณภาพทุเรียนที่โรงคัดบรรจุอย่างไร",
+        "english": "How does dry matter content testing figure into durian quality control at the packing house?",
+        "predict": "How does measuring dry matter content contribute to durian quality control at the packing house?",
+        "time_second": 11.06549596786499,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It perfectly preserves the meaning of the source sentence and is highly fluent. The phrases 'measuring dry matter content' and 'contribute to' are accurate and natural alternatives to 'dry matter content testing' and 'figure into' used in the reference, conveying the same intent and information without any loss or error. The terminology 'dry matter content' and 'packing house' are correctly used."
+            },
+            "BLEU": {
+                "score": 0.5681096832337496
+            }
+        }
+    },
+    {
+        "thai": "สภาพแวดล้อมใดส่งเสริมให้ต้นทุเรียนติดดอก",
+        "english": "What environmental conditions promote flower induction in durian trees?",
+        "predict": "What environmental conditions promote flowering in durian trees?",
+        "time_second": 9.638631105422974,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation is very good and accurately conveys the meaning. 'Promote flowering' is a perfectly understandable and common way to phrase this. The reference 'flower induction' is a more specific and precise horticultural term for the process of initiating flower formation, which 'ติดดอก' (tit-dok) in Thai often implies in this context. While the prediction is not wrong, it's slightly less precise than the reference, hence a score of 0.9."
+            },
+            "BLEU": {
+                "score": 0.5341735956899847
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดสำหรับการจดทะเบียนสวนทุเรียนเพื่อส่งออกมีอะไรบ้าง",
+        "english": "What are the requirements for registering durian farms for export?",
+        "predict": "What are the requirements for registering a durian orchard for export?",
+        "time_second": 10.732883214950562,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. The only difference from the reference is the use of 'a durian orchard' instead of 'durian farms'. 'Orchard' is a very accurate and often preferred term for a 'สวน' (garden/farm) specifically for fruit trees like durian. The use of singular 'a durian orchard' is also perfectly acceptable and conveys the same meaning as the generic 'durian farms' in the context of registration requirements. The meaning, fluency, and terminology are all perfectly preserved and correct."
+            },
+            "BLEU": {
+                "score": 0.5452469119630866
+            }
+        }
+    },
+    {
+        "thai": "หน่วยงานใดอนุมัติรายชื่อสวนทุเรียนและโรงคัดบรรจุไทยที่มีสิทธิ์ส่งออกไปจีน",
+        "english": "Which authority approves the list of Thai durian orchards and packing houses eligible for export to China?",
+        "predict": "Which agency approves the list of Thai durian orchards and packing houses eligible for export to China?",
+        "time_second": 9.831207036972046,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is identical to the ground truth, with the only difference being 'agency' instead of 'authority' for 'หน่วยงาน'. Both are perfectly valid and synonymous translations in this context, preserving the full meaning, fluency, and terminology."
+            },
+            "BLEU": {
+                "score": 0.8915993127600096
+            }
+        }
+    },
+    {
+        "thai": "น้ำหนักเนื้อแห้งขั้นต่ำที่กำหนดสำหรับทุเรียนหมอนทองส่งออกคือเท่าไร",
+        "english": "What is the minimum dry matter content amount required in Monthong durians for export?",
+        "predict": "What is the minimum specified dry weight for Monthong durian for export?",
+        "time_second": 24.16586184501648,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is very accurate and fluent. The only minor difference is the use of 'dry weight' instead of 'dry matter content'. While 'dry matter content' is the more precise and common technical term in the context of fruit quality (like durian), 'dry weight' is still understandable and conveys the intended meaning accurately enough. 'Specified' vs 'required' are both valid translations for 'ที่กำหนด'."
+            },
+            "BLEU": {
+                "score": 0.25535218922489117
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกที่บ่งบอกว่าทุเรียนสุกและพร้อมเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the visible signs that indicate durians are ripe and ready to harvest?",
+        "predict": "What are the external characteristics that indicate a durian is ripe and ready for harvest?",
+        "time_second": 14.273945093154907,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent and conveys the exact meaning of the original Thai sentence. The phrases 'external characteristics' and 'a durian is ripe and ready for harvest' are perfectly natural and accurate alternatives to the ground truth's 'visible signs' and 'durians are ripe and ready to harvest'. The differences are minor stylistic variations rather than errors, hence a very high score."
+            },
+            "BLEU": {
+                "score": 0.1925161443439357
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดที่ใช้ส่งเร่งให้ทุเรียนสุกสม่ำเสมอหลังเก็บเกี่ยว",
+        "english": "Which chemicals are used to promote uniform ripening of durians after harvest?",
+        "predict": "Which chemical is used to promote uniform ripening of durian post-harvest?",
+        "time_second": 8.45970106124878,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is excellent. It perfectly preserves the meaning and is highly fluent. The only minor differences are the use of 'chemical' (singular) instead of 'chemicals' (plural) and 'durian' (singular) instead of 'durians' (plural), which are stylistic choices where the ground truth might be slightly more idiomatic, but the predicted singular forms are not incorrect in this context. 'Post-harvest' is a perfectly valid and concise alternative to 'after harvest'."
+            },
+            "BLEU": {
+                "score": 0.4124914892312113
+            }
+        }
+    },
+    {
+        "thai": "ศัตรูพืชหลักที่เจาะเข้าไปในเมล็ดและทำให้เนื้อทุเรียนเสียคืออะไร",
+        "english": "What are the main pests that bore into the seed and damage the durian flesh?",
+        "predict": "What is the primary pest that bores into the seed and damages the durian flesh?",
+        "time_second": 13.623067140579224,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is very accurate and fluent. The only minor difference is the singular vs. plural interpretation of 'ศัตรูพืชหลัก'. The ground truth uses 'main pests' (plural), while the prediction uses 'primary pest' (singular). Both are grammatically correct and convey a very similar meaning, but the plural 'main pests' is often a more natural fit for this type of general question in English, implying a category of pests rather than a single one. However, 'primary pest' is also a valid interpretation."
+            },
+            "BLEU": {
+                "score": 0.33157961519920837
+            }
+        }
+    },
+    {
+        "thai": "ต้องระบุข้อมูลใดบ้างบนบรรจุภัณฑ์ทุเรียนส่งออกเพื่อให้รองรับการตรวจสอบย้อนกลับ",
+        "english": "What information must be included on the export packaging of durians to support traceability?",
+        "predict": "What information must be specified on export durian packaging to support traceability?",
+        "time_second": 8.655540943145752,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost identical to the ground truth. 'Specified' is an excellent translation for 'ระบุ', and 'export durian packaging' is a perfectly natural and concise way to phrase 'the export packaging of durians'. The meaning is perfectly preserved, and the fluency is excellent. The minor differences are stylistic choices that do not detract from the quality."
+            },
+            "BLEU": {
+                "score": 0.359099354184376
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าโคนเน่าทุเรียนที่เกิดจากเชื้อรา Phytophthora palmivora คืออะไร",
+        "english": "What are the symptoms of root rot and foot rot caused by Phytophthora palmivora in durian trees?",
+        "predict": "What are the symptoms of Root rot and Foot rot in durian caused by the fungus Phytophthora palmivora?",
+        "time_second": 16.64208984375,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent, accurately conveying the full meaning of the original Thai sentence. It maintains fluency and uses correct terminology. The inclusion of 'the fungus' before 'Phytophthora palmivora' is a more direct and accurate translation of 'เชื้อรา Phytophthora palmivora' than the reference, which omits 'the fungus'. The only minor difference is 'in durian' versus 'in durian trees', where 'in durian trees' might be slightly more specific in this context, but 'in durian' is perfectly understandable and concise. The capitalization of 'Root rot' and 'Foot rot' is also a minor stylistic difference from the reference."
+            },
+            "BLEU": {
+                "score": 0.2966090320349727
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีระบบใบรับรองสุขอนามัยพืชอิเล็กทรอนิกส์ในการส่งออกทุเรียน",
+        "english": "What is the purpose of the e-Phytosanitary Certificate system in durian export?",
+        "predict": "Why is an electronic phytosanitary certificate system necessary for durian exports?",
+        "time_second": 9.910124778747559,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It accurately conveys the meaning of the original Thai sentence, using natural and fluent English. The phrasing 'Why is... necessary' directly translates 'ทำไมจึงต้องมี' and is just as valid and idiomatic as the reference's 'What is the purpose of'. The terminology 'electronic phytosanitary certificate system' and 'durian exports' are correct. This is a perfect match in terms of meaning and quality."
+            },
+            "BLEU": {
+                "score": 0.04406306339938217
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำเท่าไรในระยะที่ทุเรียนเริ่มติดผล",
+        "english": "How much water should be given during the early fruit-setting stage in durian cultivation?",
+        "predict": "How much water should be given when the durian starts to set fruit?",
+        "time_second": 15.109994888305664,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The translation is accurate and fluent, correctly conveying the main question and the specific phase of durian growth. It captures 'starts to set fruit' well. The only minor difference from the reference is the phrasing of 'ในระยะที่ทุเรียนเริ่มติดผล' where the model uses 'when the durian starts to set fruit' instead of the more precise 'during the early fruit-setting stage,' which better captures 'ระยะ' (stage) and the horticultural nuance of 'เริ่ม' (early/beginning) found in the reference. However, the meaning is clearly preserved."
+            },
+            "BLEU": {
+                "score": 0.36050897054210523
+            }
+        }
+    },
+    {
+        "thai": "ควรตรวจหาเพลี้ยไฟพริกในสวนทุเรียนบ่อยแค่ไหน",
+        "english": "How often should durian orchards be inspected for thrips?",
+        "predict": "How often should you check for Chili Thrips in a durian orchard?",
+        "time_second": 23.54497003555298,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent. It accurately translates 'เพลี้ยไฟพริก' as 'Chili Thrips', which is more specific and precise than the general 'thrips' used in the ground truth. The phrasing 'How often should you check for' is also a perfectly natural and accurate rendition of the original Thai. The only minor difference is 'in a durian orchard' vs 'durian orchards', both of which are contextually appropriate. Overall, a very high-quality translation, arguably even slightly better than the provided ground truth in terms of specificity."
+            },
+            "BLEU": {
+                "score": 0.13674406678232565
+            }
+        }
+    },
+    {
+        "thai": "ในพื้นที่ผลิตทุเรียนจำเป็นต้องมีข้อกำหนดด้านสุขาภิบาลใด",
+        "english": "What sanitation practices are required in durian production areas?",
+        "predict": "What are the sanitation requirements for durian production areas?",
+        "time_second": 5.700793027877808,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The model's translation is excellent. It accurately translates `ข้อกำหนดด้านสุขาภิบาล` as 'sanitation requirements,' which is a very precise rendering. The ground truth's 'sanitation practices' is an acceptable interpretation, but 'requirements' is more direct for `ข้อกำหนด`. The use of 'for' instead of 'in' (`ใน`) is a minor stylistic difference that doesn't affect the meaning or fluency. Overall, the predicted translation is a perfect and highly accurate rendition of the source sentence."
+            },
+            "BLEU": {
+                "score": 0.30213753973567686
+            }
+        }
+    },
+    {
+        "thai": "ทุเรียนที่จะส่งออกไปจีนจะมีค่าปริมาณสารพิษตกค้างสูงสุดได้เท่าไหร่",
+        "english": "What is the maximum residue limits for durians to be exported to China?",
+        "predict": "What is the maximum toxic residue limit for durians to be exported to China?",
+        "time_second": 17.623232126235962,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is highly accurate and fluent. The phrase \"toxic residue limit\" is a very direct and correct translation of \"สารพิษตกค้าง\", even though the ground truth uses the more common industry term \"residue limits\" (which implies toxicity). The use of \"limit\" (singular) instead of \"limits\" (plural) is a minor grammatical nuance, as the standard regulatory term is \"Maximum Residue Limits\" (MRLs) in plural. Overall, an excellent translation with negligible impact on meaning."
+            },
+            "BLEU": {
+                "score": 0.6606328636027619
+            }
+        }
+    },
+    {
+        "thai": "เพลี้ยแป้งส่งผลต่อคุณภาพผลทุเรียนอย่างไร",
+        "english": "Explain how mealybugs affect the quality of durian fruit.",
+        "predict": "How do Mealybugs affect the quality of durian fruit?",
+        "time_second": 6.569020748138428,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is a perfect and direct translation of the original Thai question. The Thai sentence 'เพลี้ยแป้งส่งผลต่อคุณภาพผลทุเรียนอย่างไร' is a direct question asking 'How do mealybugs affect the quality of durian fruit?'. The ground truth changes this to an imperative 'Explain how...', which, while conveying the intent to gain information, is not a direct translation of the grammatical structure of the Thai source. The predicted translation is therefore superior in its accuracy to the source."
+            },
+            "BLEU": {
+                "score": 0.5169731539571706
+            }
+        }
+    },
+    {
+        "thai": "ปริมาณน้ำหนักเนื้อแห้งมีความสำคัญต่อคุณภาพของทุเรียนส่งออกอย่างไร",
+        "english": "How is dry matter content amount important to the quality of durians for export?",
+        "predict": "How is the dry matter content important to the quality of export durian?",
+        "time_second": 16.398691177368164,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent. It accurately conveys the full meaning of the source sentence and is highly fluent and natural-sounding in English. The slight differences from the reference, such as 'the dry matter content' instead of 'dry matter content amount' and 'export durian' instead of 'durians for export', are natural and often more concise phrasing, maintaining or even slightly improving the readability without any loss of meaning. It is very close to a perfect match."
+            },
+            "BLEU": {
+                "score": 0.3807675714442652
+            }
+        }
+    },
+    {
+        "thai": "การควบคุมการสุกด้วยอีทีฟอนมีประโยชน์อย่างไร",
+        "english": "What are the benefits of ripening control using ethephon?",
+        "predict": "What are the benefits of controlling ripening with Ethephon?",
+        "time_second": 14.348283767700195,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is grammatically correct, fluent, and conveys the exact same meaning as the ground truth. The differences ('controlling ripening' vs 'ripening control' and 'with' vs 'using') are minor stylistic variations, both being equally natural and accurate English translations of the source Thai."
+            },
+            "BLEU": {
+                "score": 0.42728700639623396
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดพิ้นฐานสำหรับโรงคัดบรรจุทุเรียนที่ส่งออกไปจีนมีอะไรบ้าง",
+        "english": "What are the minimum requirements for packing houses exporting durians to China?",
+        "predict": "What are the basic requirements for durian packing houses that export to China?",
+        "time_second": 10.070481777191162,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent. It accurately conveys the meaning and maintains fluency. The only minor difference is the use of 'basic requirements' instead of 'minimum requirements' for 'ข้อกำหนดพิ้นฐาน'. While 'minimum' might be slightly more common in a regulatory context, 'basic' is a perfectly acceptable and understandable translation that does not alter the core meaning. The phrasing 'durian packing houses' is also very natural."
+            },
+            "BLEU": {
+                "score": 0.22355093096292106
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องมีสติกเกอร์ติดไว้ที่ก้านทุเรียน",
+        "english": "What is the purpose of the durian stem sticker?",
+        "predict": "Why must there be a sticker on the durian stem?",
+        "time_second": 20.502531051635742,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very accurate and fluent, capturing the full meaning of the original Thai. It translates 'ทำไมจึงต้องมี' as 'Why must there be', which is a direct and correct interpretation, similar to the reference's 'What is the purpose of'. The phrasing 'a sticker on the durian stem' is also perfectly correct and understandable, even if the reference's 'the durian stem sticker' is slightly more concise. The differences are minor stylistic variations and do not detract from the quality or meaning preservation."
+            },
+            "BLEU": {
+                "score": 0.15851165692617147
+            }
+        }
+    },
+    {
+        "thai": "อธิบายระบบหมุนเวียนอากาศที่ใช้ระหว่างขนส่งทุเรียนในตู้คอนเทนเนอร์",
+        "english": "Explain the airflow system used in durian containers in transit.",
+        "predict": "Explain the air circulation system used for transporting durian in containers.",
+        "time_second": 16.237823963165283,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very close to the ground truth and perfectly preserves the meaning. 'Air circulation system' is a direct and accurate translation of 'ระบบหมุนเวียนอากาศ', just as 'airflow system' is. 'Used for transporting durian in containers' is an excellent and precise rendition of 'ที่ใช้ระหว่างขนส่งทุเรียนในตู้คอนเทนเนอร์'. The slight difference from the ground truth ('in durian containers in transit') is a stylistic variation, both are equally valid and fluent translations of the source Thai."
+            },
+            "BLEU": {
+                "score": 0.11390778025531022
+            }
+        }
+    },
+    {
+        "thai": "โรงคัดบรรจุต้องปฏิบัติตามมาตรฐานการเกษตรไทยใดบ้างเพื่อให้ส่งออกทุเรียนไปจีนได้",
+        "english": "What Thai agricultural standards must packing houses comply with to export durians to China?",
+        "predict": "What Thai Agricultural Standards must a packing house comply with to export durian to China?",
+        "time_second": 8.098621845245361,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very close to the ground truth. The only minor differences are the use of 'a packing house' (singular) instead of 'packing houses' (plural), capitalization of 'Agricultural Standards', and 'durian' (singular/mass noun) instead of 'durians' (plural). These are minor stylistic or grammatical choices that do not alter the meaning or fluency of the sentence. The meaning is perfectly preserved."
+            },
+            "BLEU": {
+                "score": 0.25947507140745757
+            }
+        }
+    },
+    {
+        "thai": "ทำไมจึงต้องเก็บเกี่ยวทุเรียนที่มีน้ำหนักเนื้อแห้งในปริมาณเหมาะสมต่อการส่งออก",
+        "english": "Why must durians be harvested when they have enough dry matter content amount for export?",
+        "predict": "Why is it necessary to harvest durians with the appropriate dry matter content for export?",
+        "time_second": 12.532308101654053,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent. It preserves the full meaning of the original Thai sentence, is highly fluent, and uses correct terminology ('dry matter content'). The phrasing 'with the appropriate dry matter content' is a perfectly valid and accurate translation of 'ที่มีน้ำหนักเนื้อแห้งในปริมาณเหมาะสม', and 'appropriate' is a strong direct translation for 'เหมาะสม'. It's very close to the reference translation, differing only in minor phrasing which does not impact accuracy or fluency."
+            },
+            "BLEU": {
+                "score": 0.16451929399933113
+            }
+        }
+    },
+    {
+        "thai": "สารเคมีใดใช้กระตุ้นทุเรียนให้ออกดอกนอกฤดู",
+        "english": "What chemical is used to induce off-season flowering in durian trees?",
+        "predict": "What chemical is used to stimulate off-season flowering in durian?",
+        "time_second": 10.533237934112549,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost identical to the ground truth. 'Stimulate' is a good synonym for 'induce' in this context, and while 'durian trees' is slightly more explicit, 'durian' is perfectly understandable and contextually correct when talking about 'flowering'."
+            },
+            "BLEU": {
+                "score": 0.5509785767132418
+            }
+        }
+    },
+    {
+        "thai": "ในตู้คอนเทนเนอร์บรรจุทุเรียนส่งออก ควรรักษาอุณหภูมิไว้ที่เท่าไร",
+        "english": "In durian shipping containers, what temperature should be maintained?",
+        "predict": "What temperature should be maintained in a shipping container for exporting durian?",
+        "time_second": 13.415496110916138,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.99,
+                "explanation": "The predicted translation is excellent. It accurately conveys the full meaning of the original Thai sentence, is perfectly fluent, and uses correct terminology. The phrasing 'for exporting durian' is a very precise translation of 'บรรจุทุเรียนส่งออก'. While the sentence structure differs slightly from the reference, it is equally natural and grammatically correct in English. It's a near-perfect translation."
+            },
+            "BLEU": {
+                "score": 0.22242469397936765
+            }
+        }
+    },
+    {
+        "thai": "วิธีที่แนะนำสำหรับการคำนวณน้ำหนักเนื้อแห้งในเนื้อทุเรียนคือวิธีใด",
+        "english": "What is the recommended method for calculating the amount of dry matter content in durian pulp?",
+        "predict": "What is the recommended method for calculating the dry weight in durian flesh?",
+        "time_second": 6.520699977874756,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very accurate and fluent. 'Dry weight' for 'น้ำหนักเนื้อแห้ง' is a perfectly acceptable and common translation. While 'dry matter content' (as in the reference) is also very common in scientific contexts, 'dry weight' is concise and clearly conveys the meaning. 'Durian flesh' and 'durian pulp' are interchangeable in this context. The translation is excellent with only a minor stylistic difference from the reference."
+            },
+            "BLEU": {
+                "score": 0.4749235318818221
+            }
+        }
+    },
+    {
+        "thai": "ระบบออนไลน์ใดที่ผู้ส่งออกไทยต้องใช้เพื่อขอใบรับรองสุขอนามัยพืช",
+        "english": "What online system must Thai exporters use to apply for a phytosanitary certificate?",
+        "predict": "Which online system must Thai exporters use to apply for a phytosanitary certificate?",
+        "time_second": 8.667925834655762,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. The only difference from the reference is the use of 'Which' instead of 'What', both of which are perfectly acceptable and convey the same meaning in this context. The translation is fluent, accurate, and preserves all meaning and terminology."
+            },
+            "BLEU": {
+                "score": 0.9193227152249175
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์ของการทดสอบสารเคมีตกค้างในทุเรียนเพื่อส่งออกคืออะไร",
+        "english": "What is the purpose of residue testing in exported durians?",
+        "predict": "What is the purpose of testing for chemical residue in durian for export?",
+        "time_second": 14.815561056137085,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The translation is very accurate and preserves the full meaning of the original Thai sentence. The only minor differences are stylistic: 'testing for chemical residue' is slightly more verbose than the more common 'residue testing', and 'in durian for export' is correct, but 'in exported durians' or 'in durians for export' might sound marginally more natural as a general statement. However, these are very minor points and do not detract from the clarity or correctness of the translation."
+            },
+            "BLEU": {
+                "score": 0.30793007515692933
+            }
+        }
+    },
+    {
+        "thai": "ควรจัดวางทุเรียนในคอนเทนเนอร์อย่างไรเพื่อให้อากาศหมุนเวียนอย่างเหมาะสม",
+        "english": "How should durians be arranged in containers to ensure proper airflow?",
+        "predict": "How should durians be arranged in a container to ensure proper air circulation?",
+        "time_second": 10.828290939331055,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very close to the ground truth. 'A container' versus 'containers' is a minor difference, as 'คอนเทนเนอร์' can be interpreted either way depending on context, and both are grammatically correct and convey the meaning well. 'Air circulation' is also a very accurate and perhaps even more literal translation of 'อากาศหมุนเวียน' than 'airflow'. The meaning is perfectly preserved, and the fluency is excellent."
+            },
+            "BLEU": {
+                "score": 0.45723134461864345
+            }
+        }
+    },
+    {
+        "thai": "ควรให้น้ำทุเรียนที่มีดอกอยู่ในระยะกระดุมเท่าไร",
+        "english": "How much should I water durians at the Button Stage of flower development ?",
+        "predict": "How much water should be given to a durian tree in the Button Stage?",
+        "time_second": 6.76531195640564,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is highly accurate and fluent. It correctly identifies 'ระยะกระดุม' as 'Button Stage'. While it omits 'of flower development' and uses a slightly more passive construction ('should be given' vs. 'should I water'), these do not significantly alter the meaning or clarity. The meaning is fully preserved, and the terminology is correct."
+            },
+            "BLEU": {
+                "score": 0.13834368456410945
+            }
+        }
+    },
+    {
+        "thai": "เครื่องมือใดใช้วัดปริมาณน้ำหนักเนื้อแห้งในทุเรียน",
+        "english": "What tool is used to measure the amount of dry matter content in durian?",
+        "predict": "What tool is used to measure the dry matter content in durian?",
+        "time_second": 10.56578516960144,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is very accurate and fluent. It correctly translates 'dry matter content' and the overall sentence structure. The only minor difference from the reference is the omission of 'the amount of' (for 'ปริมาณ'), but 'measure the dry matter content' inherently implies measuring its amount, so the meaning is fully preserved and the phrasing remains natural."
+            },
+            "BLEU": {
+                "score": 0.729836014355472
+            }
+        }
+    },
+    {
+        "thai": "ควรทำการตัดแต่งช่อดอกบนกิ่งทุเรียนอย่างไร",
+        "english": "How should durian flower clusters be pruned on branches?",
+        "predict": "How should flower clusters on durian branches be pruned?",
+        "time_second": 18.331076860427856,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It preserves the full meaning of the original Thai sentence and is grammatically correct and fluent in English. The slight difference in word order compared to the reference ('durian flower clusters ... on branches' vs. 'flower clusters on durian branches') does not alter the meaning or naturalness of the sentence. Both are perfectly acceptable translations."
+            },
+            "BLEU": {
+                "score": 0.16515821590069035
+            }
+        }
+    },
+    {
+        "thai": "วิธีการใดที่สามารถป้องกันเพลี้ยแป้งในต้นทุเรียนได้ดี",
+        "english": "What is an effective method to prevent mealybugs in durian trees?",
+        "predict": "What are the effective methods to prevent Mealybugs in durian trees?",
+        "time_second": 8.805630922317505,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The translation accurately conveys the core meaning of the source sentence. However, it incorrectly pluralizes 'method' (using 'methods' and 'are') where the original Thai 'วิธีการใด' (which method) implies a singular approach. Additionally, 'Mealybugs' is unnecessarily capitalized. These are minor grammatical/stylistic errors that do not hinder understanding."
+            },
+            "BLEU": {
+                "score": 0.2709198854675628
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการบรรจุทุเรียนส่งออกมีอะไรบ้าง",
+        "english": "What are the packaging requirements in durians for export?",
+        "predict": "What are the packaging requirements for exporting durian?",
+        "time_second": 6.4254350662231445,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It is perfectly fluent, accurately conveys the meaning of the source Thai, and uses natural English phrasing ('for exporting durian'). In fact, it is arguably more natural and fluent than the provided ground truth's 'in durians'."
+            },
+            "BLEU": {
+                "score": 0.4344371253135793
+            }
+        }
+    },
+    {
+        "thai": "อะไรกระตุ้นให้ตาดอกทุเรียนงอก",
+        "english": "What triggers flower bud formation in durian trees?",
+        "predict": "What stimulates durian flower buds to emerge?",
+        "time_second": 9.792596101760864,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent and very close to the ground truth. 'Stimulates' is a good synonym for 'triggers', and 'durian flower buds to emerge' is a very accurate and natural translation of 'ตาดอกทุเรียนงอก'. The meaning is fully preserved, and the fluency is high."
+            },
+            "BLEU": {
+                "score": 0.06892168295481103
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนใดเกี่ยวข้องกับการเตรียมต้นทุเรียนหลังเก็บเกี่ยว",
+        "english": "What steps are involved in post-harvest preparation for durian trees?",
+        "predict": "Which steps are involved in preparing the durian tree after harvesting?",
+        "time_second": 15.525635004043579,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The model's translation is very close to the reference. It perfectly captures the meaning, and is fluent and grammatically correct. The main difference is the phrasing for 'หลังเก็บเกี่ยว' and 'การเตรียมต้นทุเรียน'. The reference uses the more concise and idiomatic 'post-harvest preparation for durian trees', whereas the model uses 'preparing the durian tree after harvesting', which is also correct and clear, though slightly more verbose. The use of 'Which steps' instead of 'What steps' and 'the durian tree' instead of 'durian trees' are minor stylistic choices that do not detract from the translation quality."
+            },
+            "BLEU": {
+                "score": 0.23462350320527997
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะใดบ้างที่บ่งบอกความสุกของทุเรียนได้",
+        "english": "How many characteristics indicate durian ripeness?",
+        "predict": "What are the characteristics that indicate the ripeness of a durian?",
+        "time_second": 2.5119192600250244,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It accurately translates 'ลักษณะใดบ้าง' as 'What are the characteristics' which is a more natural and direct translation than the 'How many characteristics' in the ground truth, given the context. The rest of the sentence is perfectly translated, maintaining meaning, fluency, and correct terminology."
+            },
+            "BLEU": {
+                "score": 0.05063996506781411
+            }
+        }
+    },
+    {
+        "thai": "ขั้นตอนหลักในการจัดการผลทุเรียนหลังเก็บเกี่ยวมีอะไรบ้าง",
+        "english": "What are the key steps in post-harvest handling of durians?",
+        "predict": "What are the main steps in managing durian fruit after harvesting?",
+        "time_second": 8.957885980606079,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation accurately conveys the meaning of the source sentence. 'main steps' is a good alternative to 'key steps', and 'managing durian fruit after harvesting' correctly translates 'จัดการผลทุเรียนหลังเก็บเกี่ยว'. While the reference uses the more idiomatic and concise term 'post-harvest handling', the predicted translation is still perfectly understandable, grammatically correct, and highly accurate in meaning. It's only slightly less concise than the reference."
+            },
+            "BLEU": {
+                "score": 0.16590387014219712
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีมาตรฐานเพื่อป้องกันเชื้อราในทุเรียนหลังเก็บเกี่ยวคืออะไร",
+        "english": "What is the standard chemical dip treatment used to prevent fungal decay in post-harvest durians?",
+        "predict": "What is the standard chemical dipping for preventing fungus in durian post-harvest?",
+        "time_second": 14.231420040130615,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The translation largely preserves the meaning and uses correct terminology. However, it is slightly less fluent and precise than the reference. Specifically, 'chemical dipping' is acceptable but 'chemical dip treatment' is more common for this context. 'Fungus' is correct, but 'fungal decay' is a more precise term for the type of problem being prevented in post-harvest produce. The most noticeable issue is the phrasing 'in durian post-harvest', which sounds a bit awkward; 'in post-harvest durians' or 'for post-harvest durians' would be more natural."
+            },
+            "BLEU": {
+                "score": 0.2582106689274053
+            }
+        }
+    },
+    {
+        "thai": "คอนเทนเนอร์ชนิดใดที่แนะนำสำหรับการรักษาคุณภาพทุเรียนระหว่างการส่งออก",
+        "english": "What type of container is recommended to maintain durian quality during export?",
+        "predict": "What type of container is recommended for preserving durian quality during export?",
+        "time_second": 14.439879894256592,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. The only difference from the ground truth is the use of 'preserving' instead of 'maintain', which is a perfectly valid and synonymous translation for 'รักษา' (rak-sa) in this context. Both sentences are fluent, grammatically correct, and convey the exact same meaning."
+            },
+            "BLEU": {
+                "score": 0.6703420896351792
+            }
+        }
+    },
+    {
+        "thai": "การฉีดพ่นปุ๋ยระหว่างที่ทุเรียนแตกใบอ่อนมีความสำคัญอย่างไร",
+        "english": "Why use foliar fertilizers during durian leaf flushing?",
+        "predict": "What is the importance of spraying fertilizer while the durian tree is producing new young leaves?",
+        "time_second": 13.699087858200073,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.9,
+                "explanation": "The predicted translation accurately conveys the meaning of the source sentence and is fluent. It directly translates 'มีความสำคัญอย่างไร' as 'What is the importance of'. The ground truth uses more concise and specific agricultural terminology ('foliar fertilizers' instead of 'spraying fertilizer' and 'durian leaf flushing' instead of 'the durian tree is producing new young leaves'), which makes it slightly more natural and professional for the context. However, the predicted translation is still very good and perfectly understandable."
+            },
+            "BLEU": {
+                "score": 0.02719665272174911
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนคืออะไร",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the phytosanitary certificate requirements for exporting durian?",
+        "time_second": 5.578833103179932,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is grammatically correct, fluent, and perfectly conveys the meaning of the source sentence. The difference in phrasing ('exporting durian' vs 'durian export') is a minor stylistic variation and does not impact the accuracy or naturalness of the translation."
+            },
+            "BLEU": {
+                "score": 0.68037493331712
+            }
+        }
+    },
+    {
+        "thai": "สำนักงานศุลกากรแห่งสาธารณรัฐประชาชนจีนมีบทบาทอย่างไรในการส่งออกทุเรียน",
+        "english": "What role does the GACC play in durian export?",
+        "predict": "What is the role of the General Administration of Customs of the People's Republic of China in durian exports?",
+        "time_second": 6.116674900054932,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is accurate, fluent, and completely preserves the meaning of the original Thai sentence. While the reference translation uses the acronym 'GACC', the model correctly translates the full name 'General Administration of Customs of the People's Republic of China', which is equally valid and clear. The change from 'export' to 'exports' is a minor stylistic difference that doesn't affect meaning. It's a high-quality translation."
+            },
+            "BLEU": {
+                "score": 0.05039518688486958
+            }
+        }
+    },
+    {
+        "thai": "อาการของโรครากเน่าในต้นทุเรียนมีอะไรบ้าง",
+        "english": "What are the symptoms of root rot in durian trees?",
+        "predict": "What are the symptoms of Root rot in durian trees?",
+        "time_second": 6.862367153167725,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.99,
+                "explanation": "The translation is almost identical to the reference. The only difference is the capitalization of 'Root' in 'Root rot'. While the reference uses lowercase, this is a minor stylistic difference that does not impact meaning, fluency, or the correctness of the terminology."
+            },
+            "BLEU": {
+                "score": 0.7016879391277372
+            }
+        }
+    },
+    {
+        "thai": "จะวินิจฉัยโรคแอนแทรคโนสบนใบทุเรียนได้อย่างไร",
+        "english": "How can anthracnose be identified on durian leaves?",
+        "predict": "How to diagnose Anthracnose on durian leaves?",
+        "time_second": 6.132122278213501,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The translation is nearly perfect. It accurately conveys the meaning of the original Thai sentence. The only very minor difference is the grammatical structure of the question's opening: 'How to diagnose' versus the reference's 'How can... be identified'. Both are natural and commonly used English phrasing, making the predicted translation highly fluent and correct."
+            },
+            "BLEU": {
+                "score": 0.32260135189272865
+            }
+        }
+    },
+    {
+        "thai": "ความเสียหายทั่วไปที่เกิดจากหนอนเจาะเมล็ดทุเรียนมีอะไรบ้าง",
+        "english": "What kinds of common damage to durian are caused by seed borer larvae?",
+        "predict": "What is the general damage caused by the Durian Seed Borer?",
+        "time_second": 6.175407886505127,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.85,
+                "explanation": "The translation accurately conveys the core meaning. However, it misses two subtle nuances present in the original Thai and captured in the reference: 1) The 'มีอะไรบ้าง' in Thai suggests asking about 'kinds of' or multiple types of damage, which the model translates as 'what is the general damage' (singular). 2) The reference explicitly states 'to durian', making the object of the damage clearer, whereas the model implies it through 'Durian Seed Borer'."
+            },
+            "BLEU": {
+                "score": 0.07209140348761812
+            }
+        }
+    },
+    {
+        "thai": "ควรเก็บเกี่ยวทุเรียนหมอนทองที่มีอายุผลเท่าไร",
+        "english": "At what age should Monthong durian fruits be harvested?",
+        "predict": "At what fruit age should Monthong durian be harvested?",
+        "time_second": 10.741023063659668,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation perfectly preserves the meaning of the source sentence. The phrasing 'At what fruit age' is a direct and understandable translation of 'อายุผล', although slightly less idiomatic than 'At what age should... fruits' as used in the reference. However, it is not incorrect or unnatural enough to warrant a significant deduction."
+            },
+            "BLEU": {
+                "score": 0.42341975792369324
+            }
+        }
+    },
+    {
+        "thai": "ระบุลักษณะทางกายภาพสามข้อที่บ่งบอกถึงความสุกของทุเรียนได้",
+        "english": "List three physical traits that indicate durian ripeness.",
+        "predict": "Identify three physical characteristics that indicate the ripeness of a durian.",
+        "time_second": 13.787950038909912,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is very accurate and natural. It uses 'Identify' instead of 'List' for 'ระบุ', and 'physical characteristics' instead of 'physical traits' for 'ลักษณะทางกายภาพ', and 'the ripeness of a durian' instead of 'durian ripeness'. All these are equally valid and fluent translations. The meaning is perfectly preserved, and the terminology is correct. The slight difference in phrasing from the reference does not diminish the quality of the translation, hence a very high score."
+            },
+            "BLEU": {
+                "score": 0.11016798394984653
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Explain how chemical dipping helps prevent post-harvest fruit spoilage.",
+        "time_second": 21.359020948410034,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is nearly identical to the ground truth. The only difference is the use of 'spoilage' instead of 'rot'. While 'rot' is often more specific to the decay of fruit, 'spoilage' is a perfectly acceptable and broader term that fully conveys the meaning of 'เน่าเสีย' in this context. The meaning is preserved, and the fluency is excellent."
+            },
+            "BLEU": {
+                "score": 0.7825422900366438
+            }
+        }
+    },
+    {
+        "thai": "การจัดเกรดทุเรียนในโรงคัดบรรจุทำอย่างไร",
+        "english": "How is durian grading done in packing houses?",
+        "predict": "How is durian grading done in a packing house?",
+        "time_second": 6.626169204711914,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost identical to the ground truth. The only difference is 'a packing house' (singular) versus 'packing houses' (plural). Both interpretations are valid given the generic nature of the Thai source sentence, which does not explicitly mark plurality. The meaning is perfectly preserved, and the translation is fluent and accurate."
+            },
+            "BLEU": {
+                "score": 0.5555238068023578
+            }
+        }
+    },
+    {
+        "thai": "ในการลงทะเบียนเป็นผู้ส่งออกทุเรียนไปจีน สวนจะต้องผ่านการรับรอง GAP และโรงคัดบรรจุจะต้องผ่านการรับรอง GMP หรือไม่",
+        "english": "In registering to export durians to China, are passing GAP and GMP standards required for orchards and packing houses, respectively?",
+        "predict": "To register as a durian exporter to China, must orchards be GAP certified and packing houses be GMP certified?",
+        "time_second": 13.410815000534058,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is excellent. It accurately conveys the full meaning of the source text, is highly fluent, and uses correct terminology. The phrasing 'must orchards be GAP certified and packing houses be GMP certified?' is very natural and clear, effectively capturing the interrogative nature and the specific requirements. It's comparable to the reference translation, offering a slightly different but equally valid and fluent phrasing."
+            },
+            "BLEU": {
+                "score": 0.11744506415971863
+            }
+        }
+    },
+    {
+        "thai": "ข้อกำหนดในการขอใบรับรองสุขอนามัยพืชสำหรับการส่งออกทุเรียนมีอะไรบ้าง",
+        "english": "What are the phytosanitary certificate requirements for durian export?",
+        "predict": "What are the requirements for obtaining a phytosanitary certificate for exporting durian?",
+        "time_second": 8.598195314407349,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.95,
+                "explanation": "The predicted translation is highly accurate, fluent, and uses correct terminology. It conveys the exact same meaning as the ground truth. The only minor difference is the phrasing 'requirements for obtaining a phytosanitary certificate' versus the more concise 'phytosanitary certificate requirements' in the reference. Both are grammatically correct and natural English, making the predicted translation very high quality."
+            },
+            "BLEU": {
+                "score": 0.1799653127176589
+            }
+        }
+    },
+    {
+        "thai": "อาการใดบ่งบอกการติดเชื้อแอนแทรคโนสบนใบทุเรียน",
+        "english": "What symptoms indicate anthracnose infection on durian leaves?",
+        "predict": "What symptoms indicate an Anthracnose infection on durian leaves?",
+        "time_second": 13.864277839660645,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is virtually identical to the ground truth. The only differences are the addition of the article 'an' and the capitalization of 'Anthracnose', which are minor stylistic variations that do not alter the meaning, fluency, or correctness of the sentence. The translation perfectly conveys the original Thai meaning."
+            },
+            "BLEU": {
+                "score": 0.5253819788848316
+            }
+        }
+    },
+    {
+        "thai": "การขึ้นทะเบียนเป็นผู้ส่งออกทุเรียนและโรงคัดบรรจุที่ได้รับการรับรองจะมีผลเป็นระยะเวลากี่ปี",
+        "english": "How long is the registration valid for durian exporters and packing houses?",
+        "predict": "For how many years will the registration as a durian exporter and a certified packing house be valid?",
+        "time_second": 31.158315181732178,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent. It accurately captures all the details from the original Thai sentence, including 'certified' (ที่ได้รับการรับรอง) for the packing house and 'for how many years' (กี่ปี), which is more specific than 'how long'. It is also perfectly fluent and natural English. The ground truth, while good, is slightly less detailed than the source text by omitting 'certified'."
+            },
+            "BLEU": {
+                "score": 0.055380039444061294
+            }
+        }
+    },
+    {
+        "thai": "การจุ่มสารเคมีเพื่อป้องกันการเน่าเสียของผลหลังเก็บเกี่ยวมีขั้นตอนใดบ้าง",
+        "english": "What is the chemical dipping procedure to prevent post-harvest rot?",
+        "predict": "What are the steps for chemical dipping to prevent post-harvest fruit spoilage?",
+        "time_second": 15.909955978393555,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent and accurately captures the meaning of the Thai source. It uses 'steps' which is a direct equivalent of 'ขั้นตอน', and 'fruit spoilage' which is a very accurate and natural translation for 'การเน่าเสียของผล'. The reference translation uses 'procedure' and 'rot', which are also correct, but the predicted translation is equally, if not slightly more, precise in some aspects (e.g., explicitly stating 'fruit'). Both are perfectly fluent and convey the exact same meaning."
+            },
+            "BLEU": {
+                "score": 0.16261701715194887
+            }
+        }
+    },
+    {
+        "thai": "ลักษณะภายนอกใดของผลทุเรียนสุกที่ใช้ในการตัดสินใจเก็บเกี่ยว",
+        "english": "What are the external characteristics of ripe durian used to determine harvest readiness?",
+        "predict": "What are the external characteristics of a ripe durian fruit used to decide when to harvest?",
+        "time_second": 29.705971002578735,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is highly accurate and fluent, perfectly capturing the meaning of the original Thai sentence. The phrasing 'a ripe durian fruit' and 'decide when to harvest' are natural and correct alternatives to the reference's 'ripe durian' and 'determine harvest readiness,' conveying the same meaning effectively without any loss of nuance or naturalness."
+            },
+            "BLEU": {
+                "score": 0.3644752842526009
+            }
+        }
+    },
+    {
+        "thai": "วิธีการตัดแต่งที่แนะนำก่อนทุเรียนออกดอกคือวิธีใด",
+        "english": "What is the recommended pruning method before durian flowering?",
+        "predict": "What is the recommended pruning method before durian flowering?",
+        "time_second": 7.673673868179321,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is identical to the ground truth and perfectly translates the original Thai sentence, preserving all meaning, fluency, and terminology."
+            },
+            "BLEU": {
+                "score": 1.0000000000000004
+            }
+        }
+    },
+    {
+        "thai": "วัตถุประสงค์หลักในการหุ้มผลทุเรียนคืออะไร",
+        "english": "What is the main purpose of bagging durian fruit?",
+        "predict": "What is the main purpose of wrapping durian fruit?",
+        "time_second": 9.87989616394043,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.8,
+                "explanation": "The predicted translation is largely correct and fluent. 'Wrapping' is a valid translation for 'หุ้ม' (to cover/wrap). However, in the agricultural context of protecting durian fruit on the tree, 'bagging' (using nets or specific bags) is a more precise and common term for the practice described by 'หุ้มผลทุเรียน'. While 'wrapping' conveys the general idea, 'bagging' is more accurate for the specific agricultural technique."
+            },
+            "BLEU": {
+                "score": 0.6580370064762461
+            }
+        }
+    },
+    {
+        "thai": "สาเหตุทั่วไปที่ทำให้ผลทุเรียนร่วงระหว่างระยะแรกของการพัฒนาผลคืออะไรบ้าง",
+        "english": "What are the common causes of fruit drop during early fruit development in durians?",
+        "predict": "What are the common causes of durian fruit drop during the early stages of fruit development?",
+        "time_second": 12.746535062789917,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 1.0,
+                "explanation": "The predicted translation is excellent and accurately conveys the full meaning of the source text. It uses natural English phrasing and correct terminology. The differences from the reference (e.g., 'durian fruit drop' vs 'fruit drop in durians', and 'the early stages of fruit development' vs 'early fruit development') are minor stylistic variations, both of which are perfectly acceptable and natural."
+            },
+            "BLEU": {
+                "score": 0.41867037412032276
+            }
+        }
+    },
+    {
+        "thai": "จงอธิบายว่าการจุ่มสารเคมีช่วยป้องกันไม่ให้ผลเน่าเสียหลังเก็บเกี่ยวได้อย่างไร",
+        "english": "Explain how chemical dipping helps prevent post-harvest fruit rot.",
+        "predict": "Explain how chemical dipping helps prevent fruit from spoiling after harvest.",
+        "time_second": 12.882037878036499,
+        "metric": {
+            "LLM-as-a-judge": {
+                "score": 0.98,
+                "explanation": "The predicted translation is almost perfect. It accurately conveys the meaning of the source sentence and is perfectly fluent. The only minor difference from the ground truth is the phrasing 'fruit from spoiling after harvest' instead of 'post-harvest fruit rot'. While both are correct, the ground truth uses slightly more concise and domain-specific terminology ('post-harvest' and 'fruit rot' are common terms in agriculture), but the predicted translation is still entirely clear and understandable."
+            },
+            "BLEU": {
+                "score": 0.44833867003844596
+            }
+        }
+    }
+]

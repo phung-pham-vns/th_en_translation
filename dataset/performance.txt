@@ -1,0 +1,9 @@
+# 📊 Translation Model Performance Comparison
+
+| Model                               |   Samples |   Avg Time (s) |   Avg LLM Score |   Avg BLEU Score |
+|:------------------------------------|----------:|---------------:|----------------:|-----------------:|
+| nllb-200-distilled-600M             |        75 |         0.607  |          0.0467 |           0.0233 |
+| opus_mt_th_en                       |        75 |         0.273  |          0.3893 |           0.1213 |
+| gemma-3-4b-it-Q4_K_M                |        75 |         0.3939 |          0.9167 |           0.2883 |
+| gemini-2.5-flash-lite-preview-06-17 |        75 |         2.2394 |          0.9655 |           0.3305 |
+| gemini-2.5-pro                      |        75 |        12.1178 |          0.9659 |           0.3656 |

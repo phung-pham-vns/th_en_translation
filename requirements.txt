@@ -6,3 +6,4 @@ fastapi
 uvicorn
 openai==0.28.0
 evaluate
+ace_tools

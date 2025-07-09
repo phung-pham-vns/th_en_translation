@@ -1,9 +1,22 @@
-import requests
-from pydantic import BaseModel
+import os
+import json
+import time
+import argparse
+from dotenv import load_dotenv
+from google import genai
+from google.genai import types
 
 
-LLAMA_API_URL = "http://localhost:9422/v1/chat/completions"
+# Load .env and initialize Gemini client
+def setup_gemini_client() -> genai.Client:
+    load_dotenv()
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise EnvironmentError("GOOGLE_API_KEY is not set in environment.")
+    return genai.Client(api_key=api_key)
 
+
+# Fixed translation terms
 system_prompt = (
     "You are a professional translation expert specializing in Thai-to-English translation.\n\n"
     "Your task is to translate Thai queries into clear, natural, and grammatically correct English, while fully preserving the original meaning, tone, and intent.\n"
@@ -48,69 +61,77 @@ system_prompt = (
     "}"
 )
 
-# Instruction template for the user query
-default_instruction = """Translate the following Thai query to English:
+# Instruction template
+user_prompt_template = """Translate the following Thai query to English:
 {thai_query}
 Provide an accurate English translation that preserves the original meaning and intent.  
 Return the translation in text.
 ```"""
 
 
-def th_to_en_translator(
-    text: str,
-    temperature: float = 0.0,
-    max_tokens: int = 1000,
-    model_name: str = "gemma-3-4b-it",
-) -> str:
-    messages = [
-        {
-            "role": "system",
-            "content": system_prompt,
-        },
-        {
-            "role": "user",
-            "content": default_instruction.format(thai_query=text),
-        },
-    ]
-
-    payload = {
-        "model": model_name,  # llama.cpp ignores this but it's required for OpenAI format
-        "messages": messages,
-        "temperature": temperature,
-        "max_tokens": max_tokens,
-        "stream": False,
-    }
-
+def translate(text: str, model: str, client: genai.Client) -> str:
+    user_prompt = user_prompt_template.format(thai_query=text)
     try:
-        response = requests.post(LLAMA_API_URL, json=payload)
-        response.raise_for_status()
-        result = response.json()
-        translated = result["choices"][0]["message"]["content"]
-        return translated.strip()
+        response = client.models.generate_content(
+            model=model,
+            contents=[system_prompt, user_prompt],
+            config=types.GenerateContentConfig(
+                thinking_config=types.ThinkingConfig(thinking_budget=-1),
+            ),
+        )
+        return response.text
     except Exception as e:
-        return {"error": str(e)}
+        return f"[ERROR] {str(e)}"
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Thai-to-English translation using Gemini"
+    )
+    parser.add_argument(
+        "--input",
+        type=str,
+        required=True,
+        help="Path to input JSON file",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        help="Path to save output JSON file",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="gemini-2.5-pro",
+        help="Gemini model to use",
+    )
+
+    args = parser.parse_args()
+
+    client = setup_gemini_client()
+
+    with open(args.input, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    for i, sample in enumerate(data):
+        print(f"\n🔄 Processing sample {i+1}/{len(data)}")
+        t_start = time.time()
+        prediction = translate(sample["thai"], model=args.model, client=client)
+        t_end = time.time()
+
+        sample["predict"] = prediction
+        sample["time_second"] = round(t_end - t_start, 3)
+
+        print(f"TH: {sample['thai']}")
+        print(f"EN: {prediction}")
+        print(f"⏱ Time: {sample['time_second']}s")
+
+    out_path = args.output or f"dataset/{args.model.replace('/', '_')}.json"
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+    print(f"\n✅ Results saved to: {out_path}")
 
 
 if __name__ == "__main__":
-    import json
-    import time
-
-    model_name = "gemma-3-4b-it-new-prompt"
-
-    with open(file="dataset/translation_testset.json", mode="r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    for sample in data:
-        t1 = time.time()
-        predict = th_to_en_translator(sample["thai"], model_name=model_name)
-        t2 = time.time()
-        sample["predict"] = predict
-        sample["time_second"] = t2 - t1
-
-        print("*" * 30)
-        print(f"Thailand: {sample['thai']}")
-        print(f"Translated: {predict}")
-        print(f"Time: {t2 - t1}s")
-
-    with open(file=f"dataset/{model_name}.json", mode="w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+    main()
